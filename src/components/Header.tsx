@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { ArrowRight, Menu, X } from "lucide-react";
@@ -21,6 +21,7 @@ const navLinks = [
 export default function Header({ theme = "dark" }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,16 +54,28 @@ export default function Header({ theme = "dark" }: HeaderProps) {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link to={link.href}
-                className={cn(
-                  "text-sm font-sans tracking-wide hover:opacity-70 transition-opacity",
-                  textColor
-                )}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href));
+              
+              return (
+                <Link key={link.label} to={link.href}
+                  className={cn(
+                    "relative text-sm font-sans tracking-wide hover:opacity-100 transition-opacity py-1",
+                    textColor,
+                    isActive ? "opacity-100 font-medium" : "opacity-70"
+                  )}
+                >
+                  {link.label}
+                  {isActive && (
+                    <motion.div
+                      layoutId="navbar-underline"
+                      className="absolute left-0 right-0 -bottom-1 h-[1.5px] bg-current"
+                      transition={{ type: "spring", stiffness: 350, damping: 30 }}
+                    />
+                  )}
+                </Link>
+              );
+            })}
           </nav>
 
           {/* Start a Project CTA */}
