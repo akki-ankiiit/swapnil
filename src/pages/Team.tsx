@@ -51,7 +51,7 @@ export default function Team() {
             <div className="lg:col-span-5 relative">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="https://instagram.fidr4-2.fna.fbcdn.net/v/t51.75761-15/465334374_18465987955021951_2517883566473005951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzQ5MzI4NzM5NjAzMTM0NjA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I05rpi0c2JcQ7kNvwHLkern&_nc_oc=AdppeLXSz-ChNCt9LhTqeynyQAQLuWDNUlq2djnqt9Jp0MZI6qwZUqS3oX7jsPSvmakMKbJsnbjucNQT0sV-Sdh0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fidr4-2.fna&_nc_gid=0KUmO_vlWffmf9NGLgnODQ&_nc_ss=7a22e&oh=00_AQAwhcVn859_CGz9GKpT-ZMiwfOhdeBc39m76laMOdh3wQ&oe=6A61C932"
+                  src="https://instagram.fdel11-4.fna.fbcdn.net/v/t51.75761-15/465334374_18465987955021951_2517883566473005951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzQ5MzI4NzM5NjAzMTM0NjA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ubkcswV_uo0Q7kNvwH-H0rL&_nc_oc=Adq20gH-pPWpgafavJk5Zoy7IJiCvDpjMRQGnDYbr64x1F5TQaO2xxYiq1IPtFu8VhDpPBN1ebeBx1vsCtrap7EH&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=instagram.fdel11-4.fna&_nc_gid=xHpK2Omlot52sW_-sZj7PA&_nc_ss=7a22e&oh=00_AQD9FU_UrVS2wG_GayUp8-RI0KeR_6KMYdLblXmtN3HZEQ&oe=6A6BE4B2"
                   alt="Rashi Bothra"
                 />
               </div>
