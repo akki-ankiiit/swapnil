@@ -115,7 +115,7 @@ export default function Home() {
             <div className="lg:col-span-4 lg:col-start-2 relative max-w-md mx-auto lg:max-w-none w-full">
               <div className="aspect-[4/5] w-full overflow-hidden shadow-2xl rounded-sm">
                 <ParallaxImage
-                  src="https://azureinteriors.in/wp-content/uploads/2022/11/Ahujas-residential-project-by-Azure-Interiors-13.jpeg"
+                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Living Space"
                   speed={0.2}
                 />
@@ -153,15 +153,15 @@ export default function Home() {
         {/* Section 3: Centered Immersive Slider (5 Cards, Single Viewport) */}
         <section className="flex flex-col justify-center min-h-screen bg-porcelain text-ink relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-stone to-transparent z-0" />
-          
+
           {/* Ambient Glowing Orbs */}
           <div className="absolute -top-[20%] -left-[10%] w-[60vw] h-[60vw] rounded-full bg-cyan-600/10 blur-[120px] mix-blend-multiply pointer-events-none z-0" />
           <div className="absolute top-[40%] -right-[10%] w-[70vw] h-[70vw] rounded-full bg-amber-600/10 blur-[120px] mix-blend-multiply pointer-events-none z-0" />
-          
+
           <div className="relative z-10 max-w-[1440px] w-full mx-auto px-5 md:px-8 xl:px-18 flex flex-col items-center text-center">
-            
+
             {/* Spinning Sticker */}
-            <motion.div 
+            <motion.div
               className="absolute top-0 right-5 md:top-10 md:right-10 z-20 pointer-events-none opacity-60 mix-blend-multiply hidden md:block"
               animate={{ rotate: 360 }}
               transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
@@ -177,7 +177,7 @@ export default function Home() {
                 </text>
               </svg>
             </motion.div>
-            
+
             {/* Centered Typography */}
             <div className="mb-4 md:mb-6">
               <p className="font-script text-3xl md:text-4xl opacity-90 mb-2 text-ink/80 capitalize">Our Portfolio</p>
@@ -188,10 +188,10 @@ export default function Home() {
 
             {/* Coverflow Image Slider */}
             <div className="relative w-full max-w-[100vw] h-[45vh] md:h-[50vh] lg:h-[55vh] flex items-center justify-center perspective-[1200px] mt-4 md:mt-8 overflow-hidden">
-              
+
               {selectedProjects.map((project, idx) => {
                 const diff = (idx - currentProject + selectedProjects.length) % selectedProjects.length;
-                
+
                 let position = "hidden";
                 if (diff === 0) position = "center";
                 else if (diff === 1) position = "right1";
@@ -218,17 +218,17 @@ export default function Home() {
                     onClick={() => setCurrentProject(idx)}
                   >
                     <ParallaxImage src={project.image} alt={project.title} speed={0} />
-                    
+
                     {/* Dark overlay for side cards */}
-                    <motion.div 
+                    <motion.div
                       className="absolute inset-0 bg-ink pointer-events-none mix-blend-multiply"
                       initial={false}
                       animate={{ opacity: position === "center" ? 0.1 : 0.6 }}
                       transition={{ duration: 0.7 }}
                     />
-                    
+
                     {/* Text overlays only visible when center */}
-                    <motion.div 
+                    <motion.div
                       className="absolute inset-0 flex flex-col justify-end p-6 md:p-10 z-20 bg-gradient-to-t from-ink/90 via-ink/20 to-transparent pointer-events-none"
                       initial={false}
                       animate={{ opacity: position === "center" ? 1 : 0, y: position === "center" ? 0 : 20 }}
@@ -243,14 +243,14 @@ export default function Home() {
 
               {/* Navigation Controls */}
               <div className="absolute top-1/2 -translate-y-1/2 left-2 right-2 md:left-8 md:right-8 flex justify-between z-40 pointer-events-none">
-                <button 
-                  onClick={prevProject} 
+                <button
+                  onClick={prevProject}
                   className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-porcelain/90 backdrop-blur-sm text-ink hover:bg-ink hover:text-porcelain transition-all duration-300 shadow-xl pointer-events-auto rounded-full"
                 >
                   <ArrowLeft className="w-4 h-4" />
                 </button>
-                <button 
-                  onClick={nextProject} 
+                <button
+                  onClick={nextProject}
                   className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-porcelain/90 backdrop-blur-sm text-ink hover:bg-ink hover:text-porcelain transition-all duration-300 shadow-xl pointer-events-auto rounded-full"
                 >
                   <ArrowRight className="w-4 h-4" />
@@ -264,61 +264,61 @@ export default function Home() {
                 View All Projects <ArrowRight className="ml-3 w-4 h-4 group-hover:translate-x-2 transition-transform duration-300" />
               </Link>
             </div>
-            
+
           </div>
         </section>
 
         {/* Section 4: Philosophy / Interactive Crossfade Section */}
         <section className="relative min-h-[65vh] lg:min-h-[80vh] flex flex-col justify-center overflow-hidden bg-ink py-12 md:py-20 lg:py-32">
-          
+
           {/* Background Images Crossfade */}
           {philosophyImages.map((img, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${activePhilosophyBg === idx ? 'opacity-100' : 'opacity-0'}`}
             >
               <img src={img} alt="Philosophy background" className="w-full h-full object-cover scale-105" />
             </div>
           ))}
-          
+
           {/* Dark Overlay to make text pop */}
           <div className="absolute inset-0 bg-ink/70 mix-blend-multiply pointer-events-none" />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/50 to-transparent pointer-events-none" />
-          
+
           <div className="max-w-[1440px] w-full mx-auto px-5 md:px-8 xl:px-18 relative z-10 flex flex-col items-center text-center">
-            
+
             <p className="font-script text-3xl md:text-4xl text-porcelain mb-8 md:mb-12 lg:mb-16 capitalize">
               — The Studio Philosophy
             </p>
-            
+
             <div className="flex flex-col space-y-4 md:space-y-6 lg:space-y-8 w-full group">
-              
+
               {/* Line 1 */}
-              <div 
+              <div
                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight transition-all duration-700 hover:scale-[1.02] cursor-pointer ${activePhilosophyBg === 0 ? 'text-porcelain' : 'text-porcelain/30'}`}
                 onMouseEnter={() => setActivePhilosophyBg(0)}
               >
                 Good design is rarely a solitary act.
               </div>
-              
+
               {/* Line 2 */}
-              <div 
+              <div
                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight transition-all duration-700 hover:scale-[1.02] cursor-pointer ${activePhilosophyBg === 1 ? 'text-porcelain' : 'text-porcelain/30'}`}
                 onMouseEnter={() => setActivePhilosophyBg(1)}
               >
                 It is a dialogue between
               </div>
-              
+
               {/* Line 3 */}
-              <div 
+              <div
                 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight transition-all duration-700 hover:scale-[1.02] cursor-pointer ${activePhilosophyBg === 2 ? 'text-porcelain' : 'text-porcelain/30'}`}
                 onMouseEnter={() => setActivePhilosophyBg(2)}
               >
                 <span className="font-script text-[1.4em] font-normal lowercase tracking-wide -mt-2 inline-block">vision, craft & living.</span>
               </div>
-              
+
             </div>
-            
+
           </div>
         </section>
 

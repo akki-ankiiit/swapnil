@@ -18,10 +18,10 @@ function TimelineSection() {
   const [activeIdx, setActiveIdx] = useState(0);
 
   return (
-    <section className="py-12 md:py-20 lg:py-32 bg-ink text-porcelain border-y border-porcelain/10">
+    <section className="py-24 md:py-32 bg-ink text-porcelain border-y border-porcelain/10">
       <div className="max-w-[1440px] mx-auto px-5 md:px-8 xl:px-18">
 
-        <div className="flex items-center space-x-6 mb-10 md:mb-16 lg:mb-24">
+        <div className="flex items-center space-x-6 mb-16 md:mb-24">
           <span className="w-16 h-[1px] bg-porcelain/30" />
           <p className="font-script text-3xl md:text-4xl text-porcelain/80 capitalize">
             Our Evolution
@@ -99,7 +99,7 @@ function ProcessSection() {
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 
   return (
-    <section className="py-12 md:py-16 lg:py-24 px-5 md:px-8 xl:px-18 bg-ink text-porcelain overflow-hidden">
+    <section className="py-16 md:py-24 px-5 md:px-8 xl:px-18 bg-ink text-porcelain overflow-hidden">
       <div className="max-w-[1440px] mx-auto">
         <h2 className="text-3xl font-serif mb-12">Our Process</h2>
 
@@ -272,8 +272,8 @@ function StudioValuesSection() {
       <div className="relative z-10 w-full max-w-[1440px] px-5 md:px-8 xl:px-18 mx-auto flex flex-col items-center justify-center">
 
         {/* Title Section (Centered above card) */}
-        <div className="text-center mb-8 md:mb-12 lg:mb-16 flex flex-col items-center">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-porcelain leading-[1.1] mb-6">
+        <div className="text-center mb-12 md:mb-16 flex flex-col items-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-porcelain leading-[1.1] mb-3">
             Studio <span className="font-script text-[1.1em] font-normal lowercase pl-2 opacity-90">values.</span>
           </h2>
           <p className="text-sm md:text-base font-sans text-porcelain/70 max-w-lg leading-relaxed font-light">
@@ -351,7 +351,7 @@ export default function About() {
       <main className="min-h-screen bg-porcelain">
 
         {/* Hero */}
-        <section className="relative min-h-[65vh] lg:min-h-[80vh] w-full flex flex-col justify-end pt-24 lg:pt-40 pb-10 md:pb-16 lg:pb-16 md:pb-24 overflow-hidden bg-ink">
+        <section className="relative min-h-[80vh] w-full flex flex-col justify-end pt-32 lg:pt-40 pb-16 md:pb-24 overflow-hidden bg-ink">
           <div className="absolute inset-0 z-0">
             <ParallaxImage
               src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2300&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -377,12 +377,12 @@ export default function About() {
         </section>
 
         {/* Studio Story */}
-        <section className="py-12 md:py-16 lg:py-24 px-5 md:px-8 xl:px-18 max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
+        <section className="py-16 md:py-24 px-5 md:px-8 xl:px-18 max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8">
           <div className="md:col-span-4 md:col-start-2">
             <h2 className="text-3xl font-serif mb-8 md:mb-12 text-ink">Our Story</h2>
             <div className="relative aspect-[3/4] w-full overflow-hidden mb-8">
               <ParallaxImage
-                src="https://instagram.fidr4-1.fna.fbcdn.net/v/t39.30808-6/362695965_18376689751021951_6720133227472749155_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzE2MDk2MTQxODQwNTA0NDQ5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S_53JgoS9FkQ7kNvwEjxAEd&_nc_oc=Adr4Zh2hZb4xEE21CfMpKduxbgIqYwwznqgOj7a9Ce9VC94UORQP39zBkoXHQGGQu-0ABCFksqApoNRwXaafsxSL&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fidr4-1.fna&_nc_gid=70je8i6sCA1-KulinilPjA&_nc_ss=7a22e&oh=00_AQClPKPEE07OhI3dBsSurvDhRqaJ_UAY2j3tZeadebrmbQ&oe=6A61B670"
+                src="https://instagram.fdel11-2.fna.fbcdn.net/v/t39.30808-6/362695965_18376689751021951_6720133227472749155_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzE2MDk2MTQxODQwNTA0NDQ5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_4ojGPz3PqoQ7kNvwHniPWb&_nc_oc=AdoGsY3vqfpwMhToB8ljwOSTR9LpYAWFbX16H07bAJFXvOJJRNEvFrQd2vhENVvuZnrdNf5sr-74Jed2vAwvpCbg&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=instagram.fdel11-2.fna&_nc_gid=c9qRbYYKFM3pW1TYGlpphg&_nc_ss=7a22e&oh=00_AQCz8kMo1SjidmewIrj_vQ9TKrLuIn9eaFfb-qE7Fwb7fg&oe=6A6BD1F0"
                 alt="Studio detail"
               />
             </div>
@@ -411,7 +411,7 @@ export default function About() {
         <TimelineSection />
 
         {/* Philosophy */}
-        <section className="py-12 md:py-16 lg:py-24 px-5 md:px-8 xl:px-18 max-w-[1440px] mx-auto text-center">
+        <section className="py-16 md:py-24 px-5 md:px-8 xl:px-18 max-w-[1440px] mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-serif mb-8 md:mb-12 text-ink max-w-4xl mx-auto leading-[1.2]">
             Our idea of luxury is <span className="font-script text-[1.2em] font-normal lowercase">personal.</span>
           </h2>
