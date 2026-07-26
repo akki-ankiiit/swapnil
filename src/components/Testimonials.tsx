@@ -111,11 +111,11 @@ export default function Testimonials() {
 
         {/* Navigation Arrows (Desktop Top Right) */}
         <div className="hidden md:flex gap-4">
-          <button onClick={scrollLeft} className="w-12 h-12 bg-white border border-ink/10 rounded-full flex items-center justify-center text-ink hover:bg-stone transition-all shadow-sm">
-            <ArrowLeft className="w-5 h-5" />
+          <button onClick={scrollLeft} className="w-12 h-12 bg-ink text-porcelain flex items-center justify-center hover:bg-ink/80 transition-colors duration-300 group">
+            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
           </button>
-          <button onClick={scrollRight} className="w-12 h-12 bg-white border border-ink/10 rounded-full flex items-center justify-center text-ink hover:bg-stone transition-all shadow-sm">
-            <ArrowRight className="w-5 h-5" />
+          <button onClick={scrollRight} className="w-12 h-12 bg-ink text-porcelain flex items-center justify-center hover:bg-ink/80 transition-colors duration-300 group">
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
         </div>
       </div>
@@ -129,12 +129,12 @@ export default function Testimonials() {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="snap-start shrink-0 w-[90vw] md:w-[600px] lg:w-[680px] bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] p-5 md:p-6 flex flex-col md:flex-row gap-6 md:gap-8 border border-ink/5 relative"
+              className="snap-start shrink-0 w-[90vw] md:w-[600px] lg:w-[680px] bg-porcelain rounded-none shadow-[0_8px_30px_rgb(0,0,0,0.06)] p-5 md:p-6 flex flex-col md:flex-row gap-6 md:gap-8 border border-ink/5 relative"
             >
               {/* Left: Redesigned Premium Media Block */}
               <div className="w-full md:w-[40%] relative shrink-0">
                 {/* Main Video Thumbnail */}
-                <div className="w-full h-48 md:h-full md:min-h-[240px] rounded-2xl overflow-hidden bg-stone relative group cursor-pointer shadow-md">
+                <div className="w-full h-48 md:h-full md:min-h-[240px] rounded-none overflow-hidden bg-stone relative group cursor-pointer shadow-md">
                   <img src={t.houseImage1} alt="Video Thumbnail" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-ink/10 group-hover:bg-ink/20 transition-colors duration-500" />
                   <div className="absolute inset-0 flex items-center justify-center">
