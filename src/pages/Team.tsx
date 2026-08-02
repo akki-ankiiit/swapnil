@@ -100,7 +100,7 @@ export default function Team() {
             <div className="lg:col-span-5 lg:col-start-8 relative order-1 lg:order-2">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="https://scontent.cdninstagram.com/v/t51.82787-19/730171343_18599137177035062_689223283054491036_n.jpg?_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0nPn9g4rXc0Q7kNvwGoZO03&_nc_oc=AdoPZLiUXhUyDAFmK1JkcB1CWiZoitgISizPfKO1oGviakPuXlXk1VVgDffkphfrpHxwtLnboJLWyauaKMIjZ-71&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=iXLCkYC8BIisOcLpEkhaZg&_nc_ss=7b6a8&oh=00_AQA072l_SsbHCVk5TqnbPTu86CdH4EKpaqKS4lkpf_5WCA&oe=6A61B56A"
+                  src="https://scontent.cdninstagram.com/v/t51.82787-19/730171343_18599137177035062_689223283054491036_n.jpg?_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=drST0cwVNCYQ7kNvwGdbYNg&_nc_oc=AdrD2uX0VArEtYot7MKNAVjekom8LJH0-nQ5YUAdoc-fK6_T5sG5T1wCR2gIY50CkMEhn81xGPhM0cjqraJH53O_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=tmMEOpnqDs88CCWGw4kq4Q&_nc_ss=7b6a8&oh=00_AQHdoNYBjOBkz4f3W3p2kVCp93QQTcV2tevDiy3O7RmprQ&oe=6A74D32A"
                   alt="Ruchi Gehani"
                 />
               </div>
@@ -180,7 +180,7 @@ export default function Team() {
               <ParallaxImage src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=600" alt="Culture 2" speed={0.1} />
             </div>
             <div className="aspect-square bg-bone overflow-hidden mt-4 md:mt-8">
-              <ParallaxImage src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=600" alt="Culture 3" speed={0.1} />
+              <ParallaxImage src="https://instagram.fidr4-3.fna.fbcdn.net/v/t51.82787-15/745144597_18408714691156261_7873180381016957763_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzODg4NTA4ODkwMDc5OTI4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XoEVFfT1RMIQ7kNvwGldEx2&_nc_oc=Adq99R8fpHh8Wbit3fPeT5bRuRnlHucAfqQmbudRrtNUnchSzCRp-qVzykqNnuAQgx5MFyv-6AdYcacG3Mdy5kEd&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fidr4-3.fna&_nc_gid=x2FWfI6SvJWZ-5f-8NrEzw&_nc_ss=7a22e&oh=00_AQFK3aHMCCksmIVJv3B2EopQMGCRhClUGAHuKim9N6M4WA&oe=6A74F73E" alt="Culture 3" speed={0.1} />
             </div>
             <div className="aspect-square bg-bone overflow-hidden mt-12 md:mt-24">
               <ParallaxImage src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=600" alt="Culture 4" speed={0.1} />

@@ -42,6 +42,19 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  @keyframes flap {
+    0%, 100% { transform: scaleX(1); }
+    50% { transform: scaleX(0.3); }
+  }
+
+  .animate-flap {
+    animation: flap 0.15s infinite;
+  }
+
+  .animate-flap-slow {
+    animation: flap 2s infinite ease-in-out;
+  }
 }
 
 @layer base {

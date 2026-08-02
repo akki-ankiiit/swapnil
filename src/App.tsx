@@ -12,6 +12,7 @@ import TermsOfService from "@/pages/TermsOfService";
 import NotFound from "@/pages/NotFound";
 import CustomCursor from "@/components/CustomCursor";
 import LenisProvider from "@/components/LenisProvider";
+import PetButterfly from "@/components/PetButterfly";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -38,6 +39,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <LenisProvider>
+        <PetButterfly />
         <CustomCursor />
         <AnimatedRoutes />
       </LenisProvider>
