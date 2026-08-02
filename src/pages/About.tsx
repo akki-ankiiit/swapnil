@@ -382,7 +382,7 @@ export default function About() {
             <h2 className="text-3xl font-serif mb-8 md:mb-12 text-ink">Our Story</h2>
             <div className="relative aspect-[3/4] w-full overflow-hidden mb-8">
               <ParallaxImage
-                src="public/images/together.jpg"
+                src="/images/together.jpg"
                 alt="Studio detail"
               />
             </div>

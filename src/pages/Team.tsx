@@ -51,7 +51,7 @@ export default function Team() {
             <div className="lg:col-span-5 relative">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="public/images/rashi.jpg"
+                  src="/images/rashi.jpg"
                   alt="Rashi Bothra"
                 />
               </div>
@@ -100,7 +100,7 @@ export default function Team() {
             <div className="lg:col-span-5 lg:col-start-8 relative order-1 lg:order-2">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="public/images/ruchi.jpg"
+                  src="/images/ruchi.jpg"
                   alt="Ruchi Gehani"
                 />
               </div>
