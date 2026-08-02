@@ -382,7 +382,7 @@ export default function About() {
             <h2 className="text-3xl font-serif mb-8 md:mb-12 text-ink">Our Story</h2>
             <div className="relative aspect-[3/4] w-full overflow-hidden mb-8">
               <ParallaxImage
-                src="https://instagram.fdel11-2.fna.fbcdn.net/v/t39.30808-6/362695965_18376689751021951_6720133227472749155_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzE2MDk2MTQxODQwNTA0NDQ5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_4ojGPz3PqoQ7kNvwHniPWb&_nc_oc=AdoGsY3vqfpwMhToB8ljwOSTR9LpYAWFbX16H07bAJFXvOJJRNEvFrQd2vhENVvuZnrdNf5sr-74Jed2vAwvpCbg&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=instagram.fdel11-2.fna&_nc_gid=c9qRbYYKFM3pW1TYGlpphg&_nc_ss=7a22e&oh=00_AQCz8kMo1SjidmewIrj_vQ9TKrLuIn9eaFfb-qE7Fwb7fg&oe=6A6BD1F0"
+                src="public/images/together.jpg"
                 alt="Studio detail"
               />
             </div>

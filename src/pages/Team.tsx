@@ -51,7 +51,7 @@ export default function Team() {
             <div className="lg:col-span-5 relative">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="https://instagram.fidr4-1.fna.fbcdn.net/v/t51.75761-15/465334374_18465987955021951_2517883566473005951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzQ5MzI4NzM5NjAzMTM0NjA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lF2Xdr_yZ-UQ7kNvwGkePG5&_nc_oc=Adq4ONhX60JWyvnEjFLFfTjhO8bpGnnOU289fWDXHUajlusOTNJI9AhYIc8BWPGVnlSVlon6cHHjrL76vOS7IiOc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fidr4-1.fna&_nc_gid=cLiELitrJgoTSRBLerDJzA&_nc_ss=7a22e&oh=00_AQH0Fz_1IYpLBD6ZcaWlUklDeJaCmzLcrsy983HMkVpDbQ&oe=6A74E6F2"
+                  src="public/images/rashi.jpg"
                   alt="Rashi Bothra"
                 />
               </div>
@@ -100,7 +100,7 @@ export default function Team() {
             <div className="lg:col-span-5 lg:col-start-8 relative order-1 lg:order-2">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="https://scontent.cdninstagram.com/v/t51.82787-19/730171343_18599137177035062_689223283054491036_n.jpg?_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=drST0cwVNCYQ7kNvwGdbYNg&_nc_oc=AdrD2uX0VArEtYot7MKNAVjekom8LJH0-nQ5YUAdoc-fK6_T5sG5T1wCR2gIY50CkMEhn81xGPhM0cjqraJH53O_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=tmMEOpnqDs88CCWGw4kq4Q&_nc_ss=7b6a8&oh=00_AQHdoNYBjOBkz4f3W3p2kVCp93QQTcV2tevDiy3O7RmprQ&oe=6A74D32A"
+                  src="public/images/ruchi.jpg"
                   alt="Ruchi Gehani"
                 />
               </div>
