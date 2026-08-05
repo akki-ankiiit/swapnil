@@ -19,7 +19,6 @@ export default function PetButterfly() {
   });
   
   const inactivityTimer = useRef<NodeJS.Timeout | null>(null);
-  const sparksContainerRef = useRef<HTMLDivElement>(null);
   const lastSparkTime = useRef(0);
   
   useEffect(() => {
@@ -65,37 +64,6 @@ export default function PetButterfly() {
     return () => clearInterval(interval);
   }, []);
 
-  const createSpark = (px: number, py: number) => {
-    if (!sparksContainerRef.current) return;
-    const spark = document.createElement('div');
-    // Magic glitter spark styling
-    spark.className = 'absolute w-2 h-2 rounded-full pointer-events-none transition-all ease-out z-[9998]';
-    spark.style.backgroundColor = ['#FDE047', '#FCD34D', '#FBBF24'][Math.floor(Math.random() * 3)];
-    spark.style.boxShadow = '0 0 10px 2px rgba(253, 224, 71, 0.8)';
-    
-    // Adjust starting position to be behind the butterfly
-    spark.style.left = `${px + 15}px`; 
-    spark.style.top = `${py + 15}px`;
-    spark.style.opacity = '1';
-    spark.style.transform = 'scale(1)';
-    spark.style.transitionDuration = '1000ms';
-    
-    sparksContainerRef.current.appendChild(spark);
-    
-    // Trigger animation next frame
-    requestAnimationFrame(() => {
-      spark.style.opacity = '0';
-      spark.style.transform = `scale(0.2) translateY(${Math.random() * 30 + 15}px) translateX(${Math.random() * 40 - 20}px)`;
-    });
-    
-    // Cleanup spark
-    setTimeout(() => {
-      if (sparksContainerRef.current && spark.parentNode === sparksContainerRef.current) {
-        sparksContainerRef.current.removeChild(spark);
-      }
-    }, 1000);
-  };
-
   useAnimationFrame((time) => {
     const currentX = x.get();
     const currentY = y.get();
@@ -126,11 +94,7 @@ export default function PetButterfly() {
       
       rotate.set(currentRotate + diff * 0.1);
       
-      // Emit sparks while flying
-      if (!isRestingRef.current && time - lastSparkTime.current > 120) {
-        lastSparkTime.current = time;
-        createSpark(currentX, currentY);
-      }
+      // (Sparks removed for performance optimization)
     } else if (isRestingRef.current) {
       // Gently return to upright position when resting
       const currentRotate = rotate.get();
@@ -143,9 +107,7 @@ export default function PetButterfly() {
 
   return (
     <>
-      {/* Container for raw DOM sparks to avoid React re-renders */}
-      <div ref={sparksContainerRef} className="fixed top-0 left-0 w-full h-full pointer-events-none z-[9998]" />
-      
+
       {/* The Butterfly */}
       <motion.div
         className="fixed top-0 left-0 text-4xl pointer-events-none z-[9999] drop-shadow-[0_0_15px_rgba(255,255,255,0.6)] select-none"
