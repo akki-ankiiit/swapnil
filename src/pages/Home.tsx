@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import ParallaxImage from "@/components/ParallaxImage";
 import SplitText from "@/components/SplitText";
-import Testimonials from "@/components/Testimonials";
+
 import { Link } from "react-router-dom";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import { motion, AnimatePresence, useInView, animate } from "framer-motion";
@@ -334,8 +334,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Section 6: Testimonials Layout from Image Reference */}
-        <Testimonials />
+
 
       </main>
       <Footer />
