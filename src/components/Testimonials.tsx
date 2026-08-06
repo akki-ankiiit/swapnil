@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Jason Miller",
     role: "Property Investor",
-    headline: "Azure transformed our bare apartment into a warm, inviting home.",
+    headline: "Swapnil Jaggi Architects transformed our bare apartment into a warm, inviting home.",
     text: "Their attention to detail and understanding of materials is unmatched. It feels effortlessly premium without losing the warmth of a real home, which has significantly increased the property value.",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
@@ -38,7 +38,7 @@ const testimonials = [
   {
     name: "Marcus Chen",
     role: "Restaurateur",
-    headline: "Working with Azure was a seamless experience from start to finish.",
+    headline: "Working with Swapnil Jaggi Architects was a seamless experience from start to finish.",
     text: "They handled everything with incredible professionalism and taste. They truly understand how to marry functionality with pure aesthetics in a commercial setting.",
     image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",

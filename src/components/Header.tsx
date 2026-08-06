@@ -45,8 +45,8 @@ export default function Header({ theme = "dark" }: HeaderProps) {
           <Link to="/" className="flex items-center">
             <img 
               src={isScrolled || theme === "dark" ? "/dark.svg" : "/light.svg"} 
-              alt="Azure Interiors Logo" 
-              className="h-8 md:h-10 w-auto" 
+              alt="Swapnil Jaggi Architects Logo" 
+              className="h-16 md:h-20 w-auto" 
             />
           </Link>
 
@@ -112,7 +112,7 @@ export default function Header({ theme = "dark" }: HeaderProps) {
           >
             <div className="flex justify-between items-center">
               <Link to="/" className="flex items-center" onClick={() => setMobileMenuOpen(false)}>
-                <img src="/dark.svg" alt="Azure Interiors Logo" className="h-8 md:h-10 w-auto" />
+                <img src="/dark.svg" alt="Swapnil Jaggi Architects Logo" className="h-16 md:h-20 w-auto" />
               </Link>
               <button
                 className="p-2 text-ink"

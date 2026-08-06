@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
           <h1 className="text-4xl md:text-5xl font-serif mb-8 tracking-tight">Privacy Policy</h1>
           <div className="space-y-6 font-sans text-sm md:text-base leading-relaxed opacity-80">
             <p>
-              At Azure Interiors, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or engage our services.
+              At Swapnil Jaggi Architects, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or engage our services.
             </p>
             <h2 className="text-2xl font-serif mt-12 mb-4">Information We Collect</h2>
             <p>
@@ -26,9 +26,9 @@ export default function PrivacyPolicy() {
             </p>
             <h2 className="text-2xl font-serif mt-12 mb-4">Contact Us</h2>
             <p>
-              If you have questions or comments about this policy, you may email us at hello@azureinteriors.com or by post to:
+              If you have questions or comments about this policy, you may email us at info@swapniljaggiarchitects.com or by post to:
               <br /><br />
-              Azure Interiors<br />
+              Swapnil Jaggi Architects<br />
               123 Design Avenue,<br />
               Civil Lines, Raipur,<br />
               Chhattisgarh 492001, India

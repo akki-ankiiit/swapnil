@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { MessageSquare, Compass, PenTool, Layers, Hammer, Sparkles } from "lucide-react";
 
 const timelineData = [
-  { year: "2013", title: "Azure Interiors founded", desc: "Established in Raipur with a focus on bespoke residential design, bringing a fresh perspective to interior architecture.", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80" },
+  { year: "2017", title: "Swapnil Jaggi Architects founded", desc: "Established in Raipur with a focus on bespoke residential design, bringing a fresh perspective to interior architecture.", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80" },
   { year: "Early years", title: "Residential & boutique", desc: "Developing a refined approach to personal living spaces, prioritizing natural light, material honesty, and comfort.", image: "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" },
   { year: "Growth", title: "Hospitality & retail", desc: "Taking on larger commercial and experience-led environments, translating the studio's intimate residential feel into public spaces.", image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80" },
-  { year: "Major projects", title: "Landmark commissions", desc: "Executing high-profile projects like Clarks Inn Suites and Zeqon, establishing Azure as a leading design force in Chhattisgarh.", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" },
+  { year: "Major projects", title: "Landmark commissions", desc: "Executing high-profile projects, establishing Swapnil Jaggi Architects as a leading design force in Chhattisgarh.", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" },
   { year: "Present", title: "Integrated solutions", desc: "A comprehensive studio offering full-scale architecture, interior design, and bespoke furniture development under one roof.", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80" }
 ];
 
@@ -370,7 +370,7 @@ export default function About() {
                 with <span className="font-script text-[1.2em] font-normal lowercase pr-8 pb-4 -mb-4 pt-2 -mt-2 pl-4 -ml-4 inline-block opacity-90">understanding.</span>
               </h1>
               <p className="text-sm md:text-lg font-sans opacity-80 max-w-xl font-light tracking-wide mb-10 leading-relaxed">
-                Azure Interiors is a Raipur-based interior architecture and design studio creating deeply personal spaces through thoughtful planning, material sensitivity and meticulous execution.
+                Swapnil Jaggi Architects is a Raipur-based interior architecture and design studio creating deeply personal spaces through thoughtful planning, material sensitivity and meticulous execution.
               </p>
             </div>
           </div>
@@ -382,27 +382,27 @@ export default function About() {
             <h2 className="text-3xl font-serif mb-8 md:mb-12 text-ink">Our Story</h2>
             <div className="relative aspect-[3/4] w-full overflow-hidden mb-8">
               <ParallaxImage
-                src="/images/together.jpg"
+                src="https://www.architectandinteriorsindia.com/cloud/2023/05/30/swapnil-jaggi-scaled.jpg"
                 alt="Studio detail"
               />
             </div>
           </div>
           <div className="md:col-span-5 md:col-start-7 text-base font-sans text-ink/80 leading-relaxed space-y-6">
             <p className="first-letter:text-5xl first-letter:font-serif first-letter:mr-2 first-letter:float-left">
-              Azure Interiors was founded in 2013 by interior designers and friends Rashi Bothra and Ruchi Gehani, with the ambition to make the process of designing a space more personal, collaborative and meaningful.
+              Swapnil Jaggi Architects was founded with the ambition to make the process of designing a space more personal, collaborative and meaningful.
             </p>
             <p>
               For the studio, an interior is never a composition of isolated objects. It is a carefully resolved relationship between architecture, movement, light, material, furniture and the lives unfolding within it.
             </p>
             <p>
-              Over the years, Azure has developed a diverse body of work spanning luxury residences, hospitality destinations, immersive experience centres, concept retail spaces and bespoke furniture. Every commission is approached without a predetermined style. Instead, the design evolves from the client’s identity, the character of the site and the possibilities of the brief.
+              Over the years, Swapnil Jaggi Architects has developed a diverse body of work spanning luxury residences, hospitality destinations, immersive experience centres, concept retail spaces and bespoke furniture. Every commission is approached without a predetermined style. Instead, the design evolves from the client’s identity, the character of the site and the possibilities of the brief.
             </p>
             <p>
-              From early concepts and spatial planning to furniture development, finish selection and turnkey execution, Azure brings every layer of a project together with clarity, technical expertise and an exacting eye for detail.
+              From early concepts and spatial planning to furniture development, finish selection and turnkey execution, Swapnil Jaggi Architects brings every layer of a project together with clarity, technical expertise and an exacting eye for detail.
             </p>
 
             <div className="pt-8">
-              <p className="font-script text-4xl text-ink">Rashi & Ruchi</p>
+              <p className="font-script text-4xl text-ink">Swapnil Jaggi</p>
             </div>
           </div>
         </section>

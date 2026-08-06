@@ -4,12 +4,13 @@ import PageTransition from "@/components/PageTransition";
 import ParallaxImage from "@/components/ParallaxImage";
 
 const teamMembers = [
-  { name: "Aarav Sharma", role: "Senior Architect", dept: "Design", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600", quote: "Architecture is the thoughtful making of space." },
-  { name: "Meera Patel", role: "Project Manager", dept: "Coordination", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600", quote: "Great design lives in the flawless details." },
-  { name: "Kunal Singh", role: "Site Supervisor", dept: "Execution", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600", quote: "Building the foundation for visionary ideas." },
-  { name: "Neha Gupta", role: "Interior Stylist", dept: "Styling", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=600", quote: "Styling is about telling a space's story." },
-  { name: "Vikram Desai", role: "3D Visualizer", dept: "Design", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=600", quote: "Translating imagination into visual reality." },
-  { name: "Anjali Rao", role: "Procurement Lead", dept: "Operations", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600", quote: "Sourcing the world for unique elements." },
+  { name: "Eshika Parwani", role: "Head Interior Designer", dept: "Design", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/2.%20ESHIKA%20PARWANI_HEAD%20INTERIOR%20DESIGNER.jpeg", quote: "Design is not just what it looks like, it's how it works." },
+  { name: "Sabiya Walyani", role: "Interior Designer", dept: "Design", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/3.SABIYA%20WALYANI_INTERIOR%20DESIGNER.jpeg", quote: "Great design lives in the flawless details." },
+  { name: "Kripa Pujara", role: "Architect", dept: "Execution", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/4.KRIPA%20PUJARA_ARCHITECT.jpeg", quote: "Building the foundation for visionary ideas." },
+  { name: "Sakshi Shadija", role: "Architect", dept: "Execution", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/5.SAKSHI%20SHADIJA_ARCHITECT.jpeg", quote: "Architecture is the thoughtful making of space." },
+  { name: "Vartika Agrawal", role: "Architect", dept: "Design", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/6.VARTIKA%20AGRAWAL_ARCHITECT.jpeg", quote: "Translating imagination into visual reality." },
+  { name: "Attul Agrawal", role: "Architect", dept: "Execution", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/7.ATTUL%20AGRAWAL_ARCHITECT.jpeg", quote: "Sourcing the world for unique elements." },
+  { name: "Somesh Krishnani", role: "Interior Designer", dept: "Design", image: "https://www.swapniljaggiarchitects.com/admin/uploads/team_section/8.SOMESH%20KRISHNANI_INTERIOR%20DESIGNER.jpeg", quote: "Styling is about telling a space's story." },
 ];
 
 export default function Team() {
@@ -22,7 +23,7 @@ export default function Team() {
         <section className="relative min-h-[80vh] w-full flex flex-col justify-end pt-32 lg:pt-40 pb-16 md:pb-24 overflow-hidden bg-ink">
           <div className="absolute inset-0 z-0">
             <ParallaxImage
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000"
+              src="https://www.swapniljaggiarchitects.com/pis_assets/images/TEAM%20PHOTO.jpeg"
               alt="The Team"
               speed={0.6}
               priority
@@ -46,27 +47,27 @@ export default function Team() {
 
         {/* Founders */}
         <section className="py-16 md:py-24 px-5 md:px-8 xl:px-18 max-w-[1440px] mx-auto">
-          {/* Founder 1 */}
+          {/* Founder */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 mb-16 md:mb-24">
             <div className="lg:col-span-5 relative">
               <div className="aspect-[3/4] w-full overflow-hidden">
                 <ParallaxImage
-                  src="/images/rashi.jpg"
-                  alt="Rashi Bothra"
+                  src="../images/image.png"
+                  alt="Swapnil Jaggi"
                 />
               </div>
-              <p className="font-script text-5xl text-ink absolute -bottom-6 -right-6 lg:-right-12 z-10">Rashi Bothra</p>
+              <p className="font-script text-5xl text-ink absolute -bottom-6 -right-6 lg:-right-12 z-10">Swapnil Jaggi</p>
             </div>
             <div className="lg:col-span-6 lg:col-start-7 flex flex-col justify-center text-ink">
-              <h2 className="text-3xl font-serif mb-2">Rashi Bothra</h2>
-              <p className="font-serif text-xl md:text-xl opacity-80 mb-8 capitalize">Co-Founder & Principal Designer</p>
+              <h2 className="text-3xl font-serif mb-2">Swapnil Jaggi</h2>
+              <p className="font-serif text-xl md:text-xl opacity-80 mb-8 capitalize">Principal Architect & Founder</p>
 
               <div className="text-base font-sans text-ink/80 leading-relaxed space-y-6">
                 <p>
-                  Rashi brings a refined eye for composition, detail and material relationships to the studio’s work. Her approach balances creative expression with the practical realities of how a space must function and endure.
+                  Swapnil brings a refined eye for composition, detail and material relationships to the studio’s work. His approach balances creative expression with the practical realities of how a space must function and endure.
                 </p>
                 <p>
-                  She leads the conceptual direction of Azure’s high-end residential and hospitality projects, ensuring that every design decision serves the overarching narrative of the space.
+                  He leads the conceptual direction of Swapnil Jaggi Architects’ high-end residential and hospitality projects, ensuring that every design decision serves the overarching narrative of the space.
                 </p>
                 <div className="pt-6 mt-6 border-t border-ink/10">
                   <p className="text-sm italic opacity-80">
@@ -74,37 +75,6 @@ export default function Team() {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Founder 2 */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
-            <div className="lg:col-span-6 flex flex-col justify-center text-ink order-2 lg:order-1">
-              <h2 className="text-3xl font-serif mb-2">Ruchi Gehani</h2>
-              <p className="font-serif text-xl md:text-xl opacity-80 mb-8 capitalize">Co-Founder & Principal Designer</p>
-
-              <div className="text-base font-sans text-ink/80 leading-relaxed space-y-6 max-w-lg">
-                <p>
-                  Ruchi’s design perspective is grounded in spatial clarity, individuality and an intuitive understanding of the client. Her work explores how colour, texture, furniture and light can give each environment a distinct identity.
-                </p>
-                <p>
-                  With a focus on spatial planning and bespoke execution, she ensures that the transition from architectural concept to lived-in reality is seamless and deeply considered.
-                </p>
-                <div className="pt-6 mt-6 border-t border-ink/10">
-                  <p className="text-sm italic opacity-80">
-                    “We aren’t just arranging furniture; we are organizing how people will experience their day.”
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="lg:col-span-5 lg:col-start-8 relative order-1 lg:order-2">
-              <div className="aspect-[3/4] w-full overflow-hidden">
-                <ParallaxImage
-                  src="/images/ruchi.jpg"
-                  alt="Ruchi Gehani"
-                />
-              </div>
-              <p className="font-script text-5xl text-ink absolute -bottom-6 -left-6 lg:-left-12 z-10">Ruchi Gehani</p>
             </div>
           </div>
         </section>
@@ -180,7 +150,7 @@ export default function Team() {
               <ParallaxImage src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=600" alt="Culture 2" speed={0.1} />
             </div>
             <div className="aspect-square bg-bone overflow-hidden mt-4 md:mt-8">
-              <ParallaxImage src="https://instagram.fidr4-3.fna.fbcdn.net/v/t51.82787-15/745144597_18408714691156261_7873180381016957763_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzODg4NTA4ODkwMDc5OTI4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XoEVFfT1RMIQ7kNvwGldEx2&_nc_oc=Adq99R8fpHh8Wbit3fPeT5bRuRnlHucAfqQmbudRrtNUnchSzCRp-qVzykqNnuAQgx5MFyv-6AdYcacG3Mdy5kEd&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fidr4-3.fna&_nc_gid=x2FWfI6SvJWZ-5f-8NrEzw&_nc_ss=7a22e&oh=00_AQFK3aHMCCksmIVJv3B2EopQMGCRhClUGAHuKim9N6M4WA&oe=6A74F73E" alt="Culture 3" speed={0.1} />
+              <ParallaxImage src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=600" alt="Culture 3" speed={0.1} />
             </div>
             <div className="aspect-square bg-bone overflow-hidden mt-12 md:mt-24">
               <ParallaxImage src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=600" alt="Culture 4" speed={0.1} />

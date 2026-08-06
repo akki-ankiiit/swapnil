@@ -180,7 +180,7 @@ export default function Contact() {
                         <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="space-y-6">
                           <h3 className="text-xs font-sans uppercase tracking-[0.15em] text-ink/60 mb-6">Tell Us More</h3>
                           <textarea placeholder="Project description and design aspirations..." rows={3} className="w-full bg-transparent border-b border-ink/20 py-2 text-sm font-sans text-ink focus:outline-none focus:border-ink transition-colors placeholder:text-ink/40 resize-none" />
-                          <input type="text" placeholder="How did you hear about Azure?" className="w-full bg-transparent border-b border-ink/20 py-2 text-sm font-sans text-ink focus:outline-none focus:border-ink transition-colors placeholder:text-ink/40" />
+                          <input type="text" placeholder="How did you hear about us?" className="w-full bg-transparent border-b border-ink/20 py-2 text-sm font-sans text-ink focus:outline-none focus:border-ink transition-colors placeholder:text-ink/40" />
 
                           <label className="flex items-start space-x-4 mt-8 cursor-pointer group">
                             <div className="w-4 h-4 border border-ink/30 flex items-center justify-center mt-0.5 group-hover:border-ink transition-colors">
@@ -245,12 +245,12 @@ export default function Contact() {
                 <div>
                   <h3 className="font-medium uppercase tracking-wider mb-3 opacity-50">Studio</h3>
                   <a
-                    href="https://maps.app.goo.gl/dueZ7FzaVaBYnYtKA"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="leading-relaxed hover:opacity-70 transition-opacity block"
                   >
-                    State Guest House, Shankar Nagar Rd, next to TruEyes Opticals Store, opp. Pahuna, Civil Lines,<br />Raipur, Chhattisgarh 492001
+                    35/1234, Punjabi Colony, Katora Talab,<br />Raipur 492001 Chhattisgarh, India.
                   </a>
                 </div>
                 <div>
@@ -262,10 +262,10 @@ export default function Contact() {
               <div className="pt-10 border-t border-ink/10">
                 <h3 className="font-medium uppercase tracking-wider mb-6 opacity-50">Prefer a conversation?</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <a href="tel:+919876543210" className="flex items-center space-x-3 text-ink hover:opacity-70 transition-opacity">
-                    <Phone className="w-4 h-4" /> <span>+91 98765 43210</span>
+                  <a href="tel:+919589348700" className="flex items-center space-x-3 text-ink hover:opacity-70 transition-opacity">
+                    <Phone className="w-4 h-4" /> <span>+91 95893 48700</span>
                   </a>
-                  <a href="mailto:hello@azureinteriors.com" className="flex items-center space-x-3 text-ink hover:opacity-70 transition-opacity">
+                  <a href="mailto:info@swapniljaggiarchitects.com" className="flex items-center space-x-3 text-ink hover:opacity-70 transition-opacity">
                     <Mail className="w-4 h-4" /> <span>Email Us</span>
                   </a>
                   <a href="#" className="flex items-center space-x-3 text-ink hover:opacity-70 transition-opacity">

@@ -22,787 +22,887 @@ export interface ProjectData {
 
 export const projects: ProjectData[] = [
   {
-    "id": "zeqon",
-    "title": "Zeqon — Luxury in Land",
-    "category": "Commercial",
-    "location": "Raipur",
-    "year": "2023",
-    "client": "Zeqon Group",
-    "area": "12,000 sq.ft",
-    "scope": "Interior Architecture, Styling",
-    "heroImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80",
-    "concept": "Designing a real estate experience centre that feels less like a sales office and more like a luxury hospitality destination.",
-    "narrative": [
-      "The client approached us with a brief to create an experience centre for their upcoming luxury villa project. They wanted a space that would instantly communicate the premium nature of their offering, while remaining welcoming and comfortable for long discussions.",
-      "Our spatial concept revolved around creating a sequence of distinct zones—from a grand arrival lobby to intimate lounge settings and private meeting suites. We used a restrained material palette of travertine, ribbed timber, and brushed brass to establish a quiet sense of luxury.",
-      "One of the main challenges was managing the acoustic privacy between discussion areas in a predominantly open-plan layout. We resolved this through carefully positioned sculptural partitions and acoustic ceiling treatments that integrate seamlessly with the lighting design."
+    id: "om-traders",
+    title: "Om Traders",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09655.jpg",
+    concept: "Om Traders, A Hardware Boutique situated in the middle of the city has the overall hardware solution along with varieties of veneer, plywood and lamin...",
+    narrative: [
+      "Om Traders, A Hardware Boutique situated in the middle of the city has the overall hardware solution along with varieties of veneer, plywood and laminates. A minimal material palette is used with interesting ways, enhancing the overall Design. The flooring is done with Jaisalmer full body tiles. A neutral colour of tiles has been cut in such a way which creates an interesting pattern right in the center of the display spaces. The Ceiling has been kept exposed and painted with ochre colour. To create emphasis over the ceiling, the plywood black painted pattern has been hanged over. The display units are made with exposed plyboard which could be removable. The drawers are covered with blue laminate balancing the whole theme all together."
     ],
-    "materials": [
-      {
-        "name": "Silver Travertine",
-        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Ribbed Walnut",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Brushed Brass",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Linen Bouclé",
-        "image": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "The space doesn't just display our project; it embodies the exact lifestyle we are offering.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Main Facade",
-        "images": [
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=-7420798220",
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=-7420798219",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=-7420798218",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=-7420798217",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=-7420798216",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=-7420798215",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-7420798214"
-        ]
-      },
-      {
-        "name": "Lobby & Atrium",
-        "images": [
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=5116905221",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=5116905222",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=5116905223",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=5116905224",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=5116905225",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=5116905226",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=5116905227"
-        ]
-      },
-      {
-        "name": "Office Workspaces",
-        "images": [
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=-7583286829",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=-7583286828",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=-7583286827",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=-7583286826",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=-7583286825",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-7583286824",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=-7583286823"
-        ]
-      },
-      {
-        "name": "Conference Rooms",
-        "images": [
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=-3333008553",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-3333008552",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-3333008551",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-3333008550",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-3333008549",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-3333008548",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-3333008547"
-        ]
-      },
-      {
-        "name": "Cafeteria & Breakouts",
-        "images": [
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=4616773167",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=4616773168",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=4616773169",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=4616773170",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=4616773171",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=4616773172",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=4616773173"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09668.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09669.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09667.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09647.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09650.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09649.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09652.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09664.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09662.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09659.jpg"]
       }
     ]
   },
   {
-    "id": "clarks-inn",
-    "title": "Clarks Inn Suites",
-    "category": "Hospitality",
-    "location": "Raipur",
-    "year": "2022",
-    "client": "Clarks Inn Group",
-    "area": "45,000 sq.ft",
-    "scope": "Interior Design, Custom Furniture",
-    "heroImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80",
-    "concept": "A contemporary business hotel that integrates regional art deco elements with modern functionality.",
-    "narrative": [
-      "For the Clarks Inn Suites in Raipur, we envisioned a space that caters to the modern business traveler while providing a distinct sense of place.",
-      "The design seamlessly weaves subtle brass accents, fluted glass panels, and deep jewel tones into a primarily neutral base. This creates an atmosphere that is both professional and luxuriously relaxing.",
-      "We custom-designed the furniture in the public areas to ensure they met the rigorous demands of hospitality wear while maintaining an elegant, residential feel."
+    id: "mr-siddharth-shrivastav",
+    title: "Mr. Siddharth Shrivastav",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09723.jpg",
+    concept: "A contemporary approach to spatial design, balancing aesthetics and functionality.",
+    narrative: [
+      "A contemporary approach to spatial design, balancing aesthetics and functionality."
     ],
-    "materials": [
-      {
-        "name": "Verde Guatemala Marble",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Fluted Glass",
-        "image": "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Brushed Brass",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Sapphire Velvet",
-        "image": "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "A perfect balance of professional efficiency and luxurious comfort.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Arrival & Reception",
-        "images": [
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=-4242498976",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=-4242498975",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-4242498974",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=-4242498973",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-4242498972",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-4242498971",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-4242498970"
-        ]
-      },
-      {
-        "name": "Guest Suites",
-        "images": [
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-3173712785",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-3173712784",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=-3173712783",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-3173712782",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-3173712781",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-3173712780",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-3173712779"
-        ]
-      },
-      {
-        "name": "Restaurant & Dining",
-        "images": [
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=-2924828840",
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=-2924828839",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=-2924828838",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=-2924828837",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=-2924828836",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=-2924828835",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-2924828834"
-        ]
-      },
-      {
-        "name": "Lounge Areas",
-        "images": [
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-601109262",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-601109261",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-601109260",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-601109259",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-601109258",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=-601109257",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=-601109256"
-        ]
-      },
-      {
-        "name": "Spa & Wellness",
-        "images": [
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=2091701207",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=2091701208",
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=2091701209",
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=2091701210",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=2091701211",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=2091701212",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=2091701213"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09748.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09702.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09722.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09739.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09717.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09705.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09711.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09715.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09707-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09677.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09686.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09675.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09676.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09673.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09719.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09735.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09736.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG209768.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG209767.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09731.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09733.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09732.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09743.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09746.jpg"]
       }
     ]
   },
   {
-    "id": "aggarwal-residence",
-    "title": "Aggarwal Residence",
-    "category": "Residential",
-    "location": "Bilaspur",
-    "year": "2024",
-    "client": "Aggarwal Family",
-    "area": "8,500 sq.ft",
-    "scope": "Architecture, Interior Design, Landscape",
-    "heroImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80",
-    "concept": "A multi-generational home that balances grand, open social spaces with quiet, private retreats.",
-    "narrative": [
-      "The Aggarwal Residence was designed for a large family that frequently hosts gatherings. The brief called for a home that felt expansive and connected to the outdoors.",
-      "We utilized large expanses of glass and continuous floor planes to seamlessly merge the interior living spaces with the lush garden courtyard.",
-      "The material palette is purposefully muted, allowing the rich textures of the curated art and the vibrant greenery of the landscape to take center stage."
+    id: "mr-deepam-shah",
+    title: "Mr. Deepam Shah",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07767.jpg",
+    concept: "A 3,620 sq. ft. Of bungalow consists of 4 bedrooms, living, dining, kitchen, seating area music room and garden area. Conceived on the two levels, the...",
+    narrative: [
+      "A 3,620 sq. ft. Of bungalow consists of 4 bedrooms, living, dining, kitchen, seating area music room and garden area. Conceived on the two levels, the house embraces interiors that are graceful, Opulent, and stylish. The client had a simple requirement of luxurious interior that would make the house unique. The Spaces in the ground floor are divided by an intricately carved leaf enhancing the theme. This carved ‘Leaf’ is so placed that it efficiently segregates the family and dining space. The function of all these spaces is distinct yet tied together. The passage of the first floor is elegantly proportioned and circulates to the 2 bedroom along with music room serving the private needs of the family. There is a separate audio-visual room that has mood lighting for special family sessions."
     ],
-    "materials": [
-      {
-        "name": "Beige Marble",
-        "image": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Teak Wood",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Linen",
-        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Bronze Details",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "Our home finally feels like a reflection of our family's lifestyle—open, warm, and deeply connected.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Facade & Exterior",
-        "images": [
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=-16698400485",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-16698400484",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=-16698400483",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-16698400482",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-16698400481",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-16698400480",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-16698400479"
-        ]
-      },
-      {
-        "name": "Living Room",
-        "images": [
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-5674130649",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-5674130648",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=-5674130647",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=-5674130646",
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-5674130645",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-5674130644",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=-5674130643"
-        ]
-      },
-      {
-        "name": "Dining & Kitchen",
-        "images": [
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=15469739140",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=15469739141",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=15469739142",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=15469739143",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=15469739144",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=15469739145",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=15469739146"
-        ]
-      },
-      {
-        "name": "Master Bedroom",
-        "images": [
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=9566243209",
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=9566243210",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=9566243211",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=9566243212",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=9566243213",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=9566243214",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=9566243215"
-        ]
-      },
-      {
-        "name": "Garden & Landscapes",
-        "images": [
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-10551636452",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-10551636451",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-10551636450",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-10551636449",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-10551636448",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-10551636447",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-10551636446"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08043-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07798-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07803-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07809-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07810-HDR-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07815-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07825-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07835-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07865-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07876-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07839-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07822-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07827-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07891-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07879-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07896-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07938-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07945-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07947-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07952-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08004.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08000.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07910-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07983-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07977-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08006-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08016-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08051-min.jpg"]
       }
     ]
   },
   {
-    "id": "hello-bastar",
-    "title": "Hello Bastar",
-    "category": "Retail",
-    "location": "Jagdalpur",
-    "year": "2021",
-    "client": "Bastar Artisans",
-    "area": "8,500 sq.ft",
-    "scope": "Interior Architecture",
-    "heroImage": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&q=80",
-    "concept": "A retail space that celebrates indigenous craftsmanship while offering a contemporary shopping experience.",
-    "narrative": [
-      "Hello Bastar is a unique retail initiative designed to showcase the rich tribal crafts of the region in a modern context. We were tasked with creating an environment that feels authentic yet aspirational.",
-      "The design language relies heavily on locally sourced materials like terracotta, bamboo, and raw timber, contrasted with clean architectural lines. Natural light plays a crucial role in highlighting the textures of the handmade products.",
-      "Custom display units were designed in collaboration with local artisans, blurring the line between the merchandise and the interior architecture."
+    id: "dr-ajit-mishra",
+    title: "Dr. Ajit Mishra",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07604-HDR.jpg",
+    concept: "? The Residence has been designed in a contemporary style carrying a Modern and Ethnic fusion based in an enhanced Luxury Living. The ground floor con...",
+    narrative: [
+      "? The Residence has been designed in a contemporary style carrying a Modern and Ethnic fusion based in an enhanced Luxury Living. The ground floor consists of a mandir, living room, dining area, a kitchen, utility, and parent’s bedroom. The zoning of the first floor level shows a distinct delineation between private spaces with the help of passage. It has master bedroom and kid’s bedroom separated with a home theatre."
     ],
-    "materials": [
-      {
-        "name": "Terracotta",
-        "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Bamboo",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Raw Timber",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Wrought Iron",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "A beautiful intersection of traditional craft and contemporary retail design.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Storefront",
-        "images": [
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=3977700156",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=3977700157",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=3977700158",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=3977700159",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=3977700160",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=3977700161",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=3977700162"
-        ]
-      },
-      {
-        "name": "Main Display Area",
-        "images": [
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-4617942134",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=-4617942133",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-4617942132",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-4617942131",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-4617942130",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-4617942129",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-4617942128"
-        ]
-      },
-      {
-        "name": "Product Shelving",
-        "images": [
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-1964035925",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-1964035924",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=-1964035923",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-1964035922",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-1964035921",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-1964035920",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-1964035919"
-        ]
-      },
-      {
-        "name": "Trial Rooms",
-        "images": [
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-3573345490",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-3573345489",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-3573345488",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=-3573345487",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=-3573345486",
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-3573345485",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-3573345484"
-        ]
-      },
-      {
-        "name": "Checkout Counters",
-        "images": [
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=2330131499",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=2330131500",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=2330131501",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=2330131502",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=2330131503",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=2330131504",
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=2330131505"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07586-HDR-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07590-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07596-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07595-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07596-HDR-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07618-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07727-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07738-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07708-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07630-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07622-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07677-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07666-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07661-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07662-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07697-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07633-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07652-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07745-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07739-min.jpg"]
       }
     ]
   },
   {
-    "id": "concept-retail",
-    "title": "Concept Retail Space",
-    "category": "Retail",
-    "location": "Raipur",
-    "year": "2023",
-    "client": "Confidential",
-    "area": "3,200 sq.ft",
-    "scope": "Interior Design, Fixture Design",
-    "heroImage": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80",
-    "concept": "An immersive, minimalist boutique that uses dramatic lighting to elevate the product presentation.",
-    "narrative": [
-      "Designed for a high-end fashion label, this concept space intentionally strips away all visual clutter to focus entirely on the garments.",
-      "The space is defined by monochromatic surfaces and monolithic display fixtures. We employed a highly sophisticated lighting control system to create distinct moods throughout the day.",
-      "The result is a gallery-like atmosphere that encourages customers to slow down and appreciate the craftsmanship of the clothing."
+    id: "the-flower-story",
+    title: "The Flower Story",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DSC08865.JPG",
+    concept: "The client came up with a concept project of Flower Boutique - a luxury retail outlet. The owner intends selling the exclusive flowers bought from dif...",
+    narrative: [
+      "The client came up with a concept project of Flower Boutique - a luxury retail outlet. The owner intends selling the exclusive flowers bought from different parts of the country. The idea was to create a space with contemporary yet modern style of Interior design. Since modern design embodies minimal and linear geometric pattern, adding classical arched openings creates a visual contrast, animating the façade and structure as a whole. The concept was to bring out the nature of the use of space in the design."
     ],
-    "materials": [
-      {
-        "name": "Polished Concrete",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Matte Black Steel",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Mirrored Glass",
-        "image": "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Bleached Oak",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "A masterclass in restraint and visual impact.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Storefront",
-        "images": [
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-5495231968",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-5495231967",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-5495231966",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=-5495231965",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=-5495231964",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=-5495231963",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=-5495231962"
-        ]
-      },
-      {
-        "name": "Main Display Area",
-        "images": [
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=6940163110",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=6940163111",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=6940163112",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=6940163113",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=6940163114",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=6940163115",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=6940163116"
-        ]
-      },
-      {
-        "name": "Product Shelving",
-        "images": [
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-2283930481",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-2283930480",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-2283930479",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-2283930478",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-2283930477",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-2283930476",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=-2283930475"
-        ]
-      },
-      {
-        "name": "Trial Rooms",
-        "images": [
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=3413469386",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=3413469387",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=3413469388",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=3413469389",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=3413469390",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=3413469391",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=3413469392"
-        ]
-      },
-      {
-        "name": "Checkout Counters",
-        "images": [
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=13888236743",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=13888236744",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=13888236745",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=13888236746",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=13888236747",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=13888236748",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=13888236749"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09217-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09083-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09072-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09167-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09089-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09209-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09203-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09173-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09068-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NND09101-min.JPG"]
       }
     ]
   },
   {
-    "id": "the-glass-house",
-    "title": "The Glass House",
-    "category": "Residential",
-    "location": "Kondagaon",
-    "year": "2024",
-    "client": "Verma Family",
-    "area": "6,000 sq.ft",
-    "scope": "Architecture, Interior Design",
-    "heroImage": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80",
-    "concept": "A transparent pavilion nestled in a dense forest, blurring the lines between inside and outside.",
-    "narrative": [
-      "The Glass House was conceived as a weekend retreat for a nature-loving family. The primary goal was to maximize the panoramic views of the surrounding woodland while maintaining a sense of shelter.",
-      "We utilized an extensive steel frame and floor-to-ceiling glazing to achieve the feeling of living among the trees. The interior palette is intentionally dark and moody to contrast with the bright natural light.",
-      "The house is designed to be completely self-sustaining, integrating passive cooling techniques and solar energy generation into its striking architectural form."
+    id: "the-monochrome-house",
+    title: "The Monochrome House",
+    category: "Architecture",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/69a76885-abc4-426f-9955-5a2cb259bd41.jpg",
+    concept: "The Monochrome House is situated in Kamal Vihar, Raipur with plot area of 773 Sq. Ft. The site retains a spacious aesthetic thanks to an innovative ve...",
+    narrative: [
+      "The Monochrome House is situated in Kamal Vihar, Raipur with plot area of 773 Sq. Ft. The site retains a spacious aesthetic thanks to an innovative vertical approach to architecture. The design implemented the creative home in response to the needs of a young family with a strong desire for simple and efficient living. It's amazing what kind of innovation can come from such a restricted canvas! If you're looking for inspiration in your quest for minimalism or just want to get the most functionality out of a limited floor plan, this gorgeously streamlined space is a delightful breath of fresh air. The colour palette chosen in the cool shade of monochrome. All the windows are covered with patterned jails which comes out as a cuboid from the building."
     ],
-    "materials": [
-      {
-        "name": "Exposed Steel",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Black Slate",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Smoked Oak",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Leather",
-        "image": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "It feels like we are living in a sophisticated treehouse. The connection to nature is profound.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Facade & Exterior",
-        "images": [
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=6136320677",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=6136320678",
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=6136320679",
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=6136320680",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=6136320681",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=6136320682",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=6136320683"
-        ]
-      },
-      {
-        "name": "Living Room",
-        "images": [
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=2878882865",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=2878882866",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=2878882867",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=2878882868",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=2878882869",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=2878882870",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=2878882871"
-        ]
-      },
-      {
-        "name": "Dining & Kitchen",
-        "images": [
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-3605925446",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=-3605925445",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=-3605925444",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=-3605925443",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=-3605925442",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=-3605925441",
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=-3605925440"
-        ]
-      },
-      {
-        "name": "Master Bedroom",
-        "images": [
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=572101695",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=572101696",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=572101697",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=572101698",
-          "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000&sig=572101699",
-          "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1000&sig=572101700",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=572101701"
-        ]
-      },
-      {
-        "name": "Garden & Landscapes",
-        "images": [
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=12102321446",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=12102321447",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=12102321448",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=12102321449",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=12102321450",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=12102321451",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=12102321452"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/monochrome%20house%201.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/monochrome%20house.jpg"]
       }
     ]
   },
   {
-    "id": "aurora-spa",
-    "title": "Aurora Wellness Spa",
-    "category": "Hospitality",
-    "location": "Bhilai",
-    "year": "2023",
-    "client": "Aurora Health",
-    "area": "4,500 sq.ft",
-    "scope": "Interior Design, Custom Lighting",
-    "heroImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80",
-    "concept": "A serene, cavernous retreat that uses soft light and natural textures to induce deep relaxation.",
-    "narrative": [
-      "Aurora Wellness Spa was designed as an escape from the bustling city. We sought to create an environment that immediately lowers the heart rate upon entry.",
-      "The design features curved, plastered walls that mimic natural grottos, eliminating harsh angles. Indirect, warm lighting highlights the tactile surfaces of the stone and clay finishes.",
-      "Acoustics were meticulously managed to ensure complete silence in the treatment rooms, further enhancing the immersive wellness experience."
+    id: "mr-ritesh-bhawnani",
+    title: "Mr. Ritesh Bhawnani",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08463.jpg",
+    concept: "A contemporary approach to spatial design, balancing aesthetics and functionality.",
+    narrative: [
+      "A contemporary approach to spatial design, balancing aesthetics and functionality."
     ],
-    "materials": [
-      {
-        "name": "Tadelakt Plaster",
-        "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Limestone",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Brass Accents",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Linen",
-        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "A truly transformative space. You feel the stress melt away the moment you walk through the door.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Arrival & Reception",
-        "images": [
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=3628559545",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=3628559546",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=3628559547",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=3628559548",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=3628559549",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=3628559550",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=3628559551"
-        ]
-      },
-      {
-        "name": "Guest Suites",
-        "images": [
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-2668286922",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-2668286921",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-2668286920",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-2668286919",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-2668286918",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=-2668286917",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=-2668286916"
-        ]
-      },
-      {
-        "name": "Restaurant & Dining",
-        "images": [
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=651262385",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=651262386",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=651262387",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=651262388",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=651262389",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=651262390",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=651262391"
-        ]
-      },
-      {
-        "name": "Lounge Areas",
-        "images": [
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-4390650695",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-4390650694",
-          "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000&sig=-4390650693",
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-4390650692",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-4390650691",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-4390650690",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-4390650689"
-        ]
-      },
-      {
-        "name": "Spa & Wellness",
-        "images": [
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=-1820316194",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=-1820316193",
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=-1820316192",
-          "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80&w=1000&sig=-1820316191",
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-1820316190",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-1820316189",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-1820316188"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08838.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08869.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08816-HDR-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08805-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08801-min.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08880.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08798-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08776.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08812.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08808.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08774.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08569.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08565.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08558.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08548.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08536%20(1).jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08535.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08532.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08521.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08513.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08510.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08501-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08483.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/111112.jpg"]
       }
     ]
   },
   {
-    "id": "the-monolith",
-    "title": "The Monolith",
-    "category": "Commercial",
-    "location": "Raipur",
-    "year": "2025",
-    "client": "Apex Industries",
-    "area": "25,000 sq.ft",
-    "scope": "Architecture, Interior Design",
-    "heroImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80",
-    "concept": "A brutalist-inspired corporate headquarters that projects strength and permanence.",
-    "narrative": [
-      "The Monolith is a bold architectural statement for a leading industrial conglomerate. The design embraces raw concrete and strict geometric forms to convey the company's robust identity.",
-      "The massive exterior gives way to a surprisingly light-filled interior, centered around a soaring four-story atrium. This central void acts as the social heart of the building, connecting the various departments.",
-      "Interior spaces balance the austere concrete with warm wood panelling and rich leather furnishings, creating a sophisticated corporate environment."
+    id: "khushboo-enterprises",
+    title: "Khushboo Enterprises",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/khushboo%20enterprises.jpg",
+    concept: "The entire office follows the sober color pallet of hues of browns which transforms the space into a seamless collaboration of aesthetics and function...",
+    narrative: [
+      "The entire office follows the sober color pallet of hues of browns which transforms the space into a seamless collaboration of aesthetics and functionality. The space speaks the language of opulence due to the powerful wooden framework and array of reflective dark walls with a tinge of gold, stimulating the effect. Combination of Elegant wooden flooring with reflective tile spells extravagance. Artificial lightening adds a touch of warmth and flair to the luxurious office space where visitors are greeted by comfortable seating furniture in bright fabric. Potted indoor plants bring a soothing element of green and enhance the visual perception of the office space for the visitors and users alike."
     ],
-    "materials": [
-      {
-        "name": "Board-Formed Concrete",
-        "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Black Steel",
-        "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Walnut Paneling",
-        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80"
-      },
-      {
-        "name": "Tan Leather",
-        "image": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&q=80"
-      }
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
     ],
-    "quote": "A building that commands respect and inspires our team every day.",
-    "galleries": [
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
       {
-        "name": "Main Facade",
-        "images": [
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-4852796577",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-4852796576",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=-4852796575",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=-4852796574",
-          "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&q=80&w=1000&sig=-4852796573",
-          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1000&sig=-4852796572",
-          "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000&sig=-4852796571"
-        ]
-      },
-      {
-        "name": "Lobby & Atrium",
-        "images": [
-          "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1000&sig=6496375482",
-          "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=1000&sig=6496375483",
-          "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000&sig=6496375484",
-          "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000&sig=6496375485",
-          "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1000&sig=6496375486",
-          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1000&sig=6496375487",
-          "https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?auto=format&fit=crop&q=80&w=1000&sig=6496375488"
-        ]
-      },
-      {
-        "name": "Office Workspaces",
-        "images": [
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-1736862210",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-1736862209",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-1736862208",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-1736862207",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-1736862206",
-          "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000&sig=-1736862205",
-          "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1000&sig=-1736862204"
-        ]
-      },
-      {
-        "name": "Conference Rooms",
-        "images": [
-          "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?auto=format&fit=crop&q=80&w=1000&sig=-512014900",
-          "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&q=80&w=1000&sig=-512014899",
-          "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000&sig=-512014898",
-          "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80&w=1000&sig=-512014897",
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=1000&sig=-512014896",
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000&sig=-512014895",
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000&sig=-512014894"
-        ]
-      },
-      {
-        "name": "Cafeteria & Breakouts",
-        "images": [
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000&sig=-1644712742",
-          "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&q=80&w=1000&sig=-1644712741",
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1000&sig=-1644712740",
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=1000&sig=-1644712739",
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1000&sig=-1644712738",
-          "https://images.unsplash.com/photo-1428366890462-dd4baecf492b?auto=format&fit=crop&q=80&w=1000&sig=-1644712737",
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000&sig=-1644712736"
-        ]
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/773f0bcd-828f-4138-b637-e437db0f40fb.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/e471d2ff-ad3d-4546-b52d-98ddb52f99d9.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/abcfb979-5d21-48e5-b155-8eb9bd56d3a2.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/e98ca529-0c07-45bd-99e0-56d99b644c89.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/43ac42b0-1f3c-4125-b5f3-df25e09d44b1.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/2.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/5dff2858-a9b5-451e-9fcc-6470a16b5e7c.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/097cd602-ce39-4387-8ec4-3ecb945dd083.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/b7976568-6976-4d17-89bd-830662d142a1.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/87d35c6d-21b4-4bc9-b876-9c5e984f3713.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/de31135f-b32c-4b09-aac5-f0b295dfba00.jpeg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/9a0581a8-f074-476e-838f-8228828cdf26.jpeg"]
       }
     ]
-  }
+  },
+  {
+    id: "bougainvillea",
+    title: "Bougainvillea",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04854%20(2).jpg",
+    concept: "The project has Built up Area of 1600 sq. Ft. The Entrance of the villa is decorated with a dummy window with rose gold tinted mirror, giving a vintag...",
+    narrative: [
+      "The project has Built up Area of 1600 sq. Ft. The Entrance of the villa is decorated with a dummy window with rose gold tinted mirror, giving a vintage appeal. Regardless of the size, the living room should be able to function as a space for relaxation and entertainment. Brick texture is given to the wall which provides a neutral background for the brightly colored upholstery. Printed tiles and wooden flooring is given to separate living from dining, allowing interesting pieces to stand out giving vintage and contemporary feel to the place. Open Pooja Room is divine at home, radiating positive energy and aura. The water body brings natural feel to the Mender. The interior was remodeled to create an open living area that blends into the kitchen and dining area. Open kitchen narrates a story about togetherness, about family and gatherings. The striking feature through these spaces is the presence of ample natural light, brought in via skylight, which is used to give the home a warm and fresh feel. Apart from tempering the climate, the skylight helps set a passive ventilation system for the house. The master bedroom features these M.S. glass frames with gorgeous self-printed curtains, giving a view to the living room . Lower bed with charcoal leather upholstery, giving a masculine touch which is enhanced by warm lighting, giving a wider look to the room. F iller slab is used in the terrace to give a raw feel to the space which also brings down the temperature. Pine wood is used in furniture, wood works with simple and straight craftsmanship. In the Guest Bedroom, a wooden texture laminate has been used, with light colored curtains, to give a modern yet contemporary look. Boys dream about being a superhero, therefore the the theme of the bedroom is derived from the kids favorite character ‘Batman’. Which is the center piece in the bedroom. The study table has a chalkboard backdrop for scribbling. Speaking about the wall décor black and white strips are painted on the walls."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05010.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05003.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04904.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04883.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04881.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04870.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04988.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04947.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04950.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04862.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_04860.jpg"]
+      }
+    ]
+  },
+  {
+    id: "mr-rishabh-dhariwal",
+    title: "Mr. Rishabh Dhariwal",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00724.jpg",
+    concept: "The Project has a living room with dining nd 4 bedrooms. The design of living room gives a feeling of relaxation having separated wooden cubical windo...",
+    narrative: [
+      "The Project has a living room with dining nd 4 bedrooms. The design of living room gives a feeling of relaxation having separated wooden cubical window seating. The walls are coloured in neutral colour and bright coloured upholstery with vintage mirror makes the space looks wider. The master bedroom's coloured in teal-grey shade adding floral elements to it ,makes it a contemporary look. The son's bedroom is themed in car racers. The wooden flooring and the bright yellow colour keeps the room energized. The daughter's bedroom is coloured in pink and pastel according to her requirements."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00790.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00794.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00781%20(1).jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00775.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00774.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00771.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00767.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00758.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00748.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00730.jpg"]
+      }
+    ]
+  },
+  {
+    id: "siesto-systems",
+    title: "Siesto Systems",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00772.jpg",
+    concept: "A contemporary approach to spatial design, balancing aesthetics and functionality.",
+    narrative: [
+      "A contemporary approach to spatial design, balancing aesthetics and functionality."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00217.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00244.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00242.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00212.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00215.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00264.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00269.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00321.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00418.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00276-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/NIL00422.jpg"]
+      }
+    ]
+  },
+  {
+    id: "mr-sachin-khandelwal",
+    title: "Mr. Sachin Khandelwal",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06523-HDR.jpg",
+    concept: "The Project is inspired by Scandinavian interiors in which simplicity is the beauty. It is a clear summary of clean lines and a minimalistic aesthetic...",
+    narrative: [
+      "The Project is inspired by Scandinavian interiors in which simplicity is the beauty. It is a clear summary of clean lines and a minimalistic aesthetic with traditional craftsmanship and multifunctional element. In the double-height living room, natural light contributes to well-being and happiness. The role of large windows is to let natural daylight in and to provide direct a view to the nature outside. Neutral color palette that favors brighter hues makes the design more sophisticated. Designed furniture with intricate flooring makes the space more luxury."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06689.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06661.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06581.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06663.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06657.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06643.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06633.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06592.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06575.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06662.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06557-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06551-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06545-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06542.jpg"]
+      }
+    ]
+  },
+  {
+    id: "vishal-the-coiffeur",
+    title: "Vishal The Coiffeur",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07423.jpg",
+    concept: "VTC – “Vishal the Coiffeur” an all luxury salon is a masterpiece in itself. The salon is a part of residential building that has been modified to brin...",
+    narrative: [
+      "VTC – “Vishal the Coiffeur” an all luxury salon is a masterpiece in itself. The salon is a part of residential building that has been modified to bring the feeling of newness and to create a set up that blends perfectly with the settings of an exclusive professional salon inclusively merging with the essence of the locality. To start with, the entrance of the salon is the focal point of the building from outside because you see a big blue coloured door standing alone . With the blue door popping out like a symbol to the salon, the salon name is also engraved in the front façade of the building and is filled with glass bricks which acts as a path for daylight to enter into the interiors of the salon. The mood board of the interior of the salon is very fresh inspired by the ocean and the architect felt it was important to break away from the expected aesthetic of salons and into a celebration of color and materials in much understated way. The ceiling is ?ller slab made with earthen pots providing heat insulation inside the salon. Along with the filler slab technique the ceiling has another feature of skylight in which the logo of the salon is included and which makes an appearance around the studio with the rotation of the sun."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG201137.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG201126.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG201125.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG201122.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07428.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07407-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07389-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07344-HDR-Edit-2.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07374-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07341-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07427.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05313.jpg"]
+      }
+    ]
+  },
+  {
+    id: "mithya",
+    title: "Mithya",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_E0892.JPG",
+    concept: "This project was conceived using affordable materials and parts of an existing building to keep project costs down. We wanted to create a cozy environ...",
+    narrative: [
+      "This project was conceived using affordable materials and parts of an existing building to keep project costs down. We wanted to create a cozy environment where people can enjoy their Leisure time and food of course. To achieve this, we chose to use materials in its raw form such as exposed brick, patterned tiling, metal pipes and added plenty of vegetation. The exposed ceiling and a thin fold of fabric covers the ceiling plays a gigantic game of checkers in the semi-covered space. The open lawn full of greenery with Kund and pool adds soothing effect in the outdoor seating space."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_1237.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_1203.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_1230.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_0970.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_0645.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_0194.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IMG_1275.JPG"]
+      }
+    ]
+  },
+  {
+    id: "bukhari-office",
+    title: "Bukhari Office",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07025.jpg",
+    concept: "The idea was to design a place which doesn’t gives a monotony of a Formal office but surely have a decency of being A classy one with the Aura of Mode...",
+    narrative: [
+      "The idea was to design a place which doesn’t gives a monotony of a Formal office but surely have a decency of being A classy one with the Aura of Modernism. We came up with very innovative ideas for everything in the space, from ceiling design , work table design , flooring ideas , wall design , furniture design , light design . Each and every element in the office was Designed with a Out of the box Element on it and also Executed at site itself ."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07035.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07033-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07023.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07020.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07019-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07017.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07011.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07009.jpg"]
+      }
+    ]
+  },
+  {
+    id: "frameland",
+    title: "Frameland",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/442A9846.jpg",
+    concept: "? A place for outdoor and indoor photoshoot. We have inbuilt spaces like The Royal bedroom setup, Wooden Blocks Setup, The Grand Piano Room, Venice St...",
+    narrative: [
+      "? A place for outdoor and indoor photoshoot. We have inbuilt spaces like The Royal bedroom setup, Wooden Blocks Setup, The Grand Piano Room, Venice Street, Greece Mykonos Street, Round Tunnel , Kitchen Setup, Venice walls , Mykonos Open Library, Love Locks , Bushwick street art, Darkroom With Mystical Flames , Bonfire setup , London Street and many more for the perfect shoot."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/442A9845.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/442A9843.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/442A9841.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/442A9840.jpg"]
+      }
+    ]
+  },
+  {
+    id: "kumra-dental-clinic",
+    title: "Kumra Dental Clinic",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09429.jpg",
+    concept: "The space is designed in such a way that the patients don’t get the ordinary feel of being in a facility. The advancement of this spot originates from...",
+    narrative: [
+      "The space is designed in such a way that the patients don’t get the ordinary feel of being in a facility. The advancement of this spot originates from the negligible utilization of surfaces, textures and patterns and not many hues. Utilization of the shading; blue and white makes this space look bright and calming to the eyes. The geometric formed gathering table is altogether different from a common one. The mirror with angular profile light on roof of the section causes the space to show up long and rich. The glass etching is done with the goal that it coordinates the instruments of a dental specialist."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09459.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09460.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09450.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09451.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09448.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09457.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09436.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09441.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09445.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09434.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09428-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09426.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09425-HDR.jpg"]
+      }
+    ]
+  },
+  {
+    id: "jp-associates",
+    title: "J.P. Associates",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09666.jpg",
+    concept: "\"Real comfort, visual and physical, is vital to every room.\" The intent of this design is to combine the multiple spaces into one and make one large o...",
+    narrative: [
+      "\"Real comfort, visual and physical, is vital to every room.\" The intent of this design is to combine the multiple spaces into one and make one large open space, taking advantage of the office’s classic architecture to bring in additional natural light. In this stunning style, neutrals; grey, black and white colour schemes reign accented with teal blue, as does the use of clean, smooth lines and geometric shapes, done by the strategy of Punning to cut down the absolute expense."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09737.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09713.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09646.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09672.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09724.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09682.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09679.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09674.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09657.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09638.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09637.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09633.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09630.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09624.jpg"]
+      }
+    ]
+  },
+  {
+    id: "vacation-connection",
+    title: "Vacation Connection",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06295.jpg",
+    concept: "A very innovative idea of Office designing in a space of only 330 sq.ft. - creating innovative designs out of basic building materials was the main in...",
+    narrative: [
+      "A very innovative idea of Office designing in a space of only 330 sq.ft. - creating innovative designs out of basic building materials was the main intention behind the Project - Colour theory of using Bright colour like Yellow has given an impact to the whole space and boost the Design to the max ! - Optimizing the space with planning techniques make the design functional."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06305.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06329-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06273.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06268.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06325-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06254.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06252-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06249.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06245-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06350.jpg"]
+      }
+    ]
+  },
+  {
+    id: "mr-navin-jadwani",
+    title: "Mr. Navin Jadwani",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2183.JPG",
+    concept: "“Architecture is a Visual Art and the building speaks about themselves “ The site is situated in Panchsheel Nagar, Raipur having site area of 4980 sq....",
+    narrative: [
+      "“Architecture is a Visual Art and the building speaks about themselves “ The site is situated in Panchsheel Nagar, Raipur having site area of 4980 sq. ft. The living arrangement houses two families with same arrangement of necessities and comparative spaces. We have attempted to characterize both the spaces with same measurements however with various feel by planning the spaces in like manner. Characterizing the space with various plan language can totally change how one sees the space. One space is characterized with an Indian plan language and different approach has been used with modern style according to the likeness of the client. The spaces have been planned according to the usage and cross ventilation and natural lighting were also kept in mind."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2426-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2057-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2411-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2125-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2075-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1741-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1878-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1872-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1785-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1674-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2342-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2208-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2050-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/10.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/9.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/8.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/7.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/5.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/4.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/2.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/1.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/3.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_2175-min.JPG","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/SHS_1646-min.JPG"]
+      }
+    ]
+  },
+  {
+    id: "absolute-skin-clinic",
+    title: "Absolute Skin Clinic",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06485-HDR-Edit.jpg",
+    concept: "The Skin Clinic has a unique aura which makes patents feel Lively ,Calm and Relaxed. Contemporary Design makes the space attractive with the harmony o...",
+    narrative: [
+      "The Skin Clinic has a unique aura which makes patents feel Lively ,Calm and Relaxed. Contemporary Design makes the space attractive with the harmony of pastel color scheme. T urquoise blue enhances the whole space and helps to complete the whole composition. Installation of illustration on the wall defines the treatments being delivered by the clinic. Each cabin and Laser rooms are designed considering the psychological impact on the patent as well as on the Doctors."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06596.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06629.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06582.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06553.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06550-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06535.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06525-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06520.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06511-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06505-Edit.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06488.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06499.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06491.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06483-HDR.jpg"]
+      }
+    ]
+  },
+  {
+    id: "posh-town",
+    title: "POSH TOWN",
+    category: "Architecture",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DJI_0009.jpg",
+    concept: "a",
+    narrative: [
+      "a"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DJI_0005.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DJI_0030.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/posh%20town%203.png"]
+      }
+    ]
+  },
+  {
+    id: "rajendra-jain",
+    title: "Rajendra Jain",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02320.jpg",
+    concept: "A small but Cozy residence!!!",
+    narrative: [
+      "A small but Cozy residence!!!"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02339.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02186-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02164-HDR.jpg"]
+      }
+    ]
+  },
+  {
+    id: "prasanan-ji",
+    title: "Prasanan Ji",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00231-Edit.jpg",
+    concept: "Contemporary Exterior with Elegant Interiors ï»¿!!!",
+    narrative: [
+      "Contemporary Exterior with Elegant Interiors ï»¿!!!"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00290.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00269.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_00244.jpg"]
+      }
+    ]
+  },
+  {
+    id: "hipsters",
+    title: "Hipsters",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A7406.jpg",
+    concept: "Designing on Site!!!",
+    narrative: [
+      "Designing on Site!!!"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A8126.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A7421.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A7639.jpg"]
+      }
+    ]
+  },
+  {
+    id: "ford",
+    title: "Ford",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01440.jpg",
+    concept: "Our second automobile showroom!!!",
+    narrative: [
+      "Our second automobile showroom!!!"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01503.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01502.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01501.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01500.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01493.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01488.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01467.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01444.jpg"]
+      }
+    ]
+  },
+  {
+    id: "azra",
+    title: "AZRA",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1352.jpg",
+    concept: "Designers' Workspace",
+    narrative: [
+      "Designers' Workspace"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1436.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1444.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1346.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1328.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1311.jpg"]
+      }
+    ]
+  },
+  {
+    id: "adda-express",
+    title: "Adda Express",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08311.jpg",
+    concept: "U niquely designed space in the city",
+    narrative: [
+      "U niquely designed space in the city"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08327.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08319.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08317.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08288.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08301.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08315.jpg"]
+      }
+    ]
+  },
+  {
+    id: "mr-goel",
+    title: "Mr. Goel",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02409.jpg",
+    concept: "The impact of the combining Open and Closed Spaces",
+    narrative: [
+      "The impact of the combining Open and Closed Spaces"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02517.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02477.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02425.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02414.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02411.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_02402.jpg"]
+      }
+    ]
+  },
+  {
+    id: "naresh-patel",
+    title: "Naresh Patel",
+    category: "Architecture & Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Architecture & Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1007.jpg",
+    concept: "A Vibrant House",
+    narrative: [
+      "A Vibrant House"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1058.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1227.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/IH1A1232.jpg"]
+      }
+    ]
+  },
+  {
+    id: "bani-decor",
+    title: "Bani Decor",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06451.jpg",
+    concept: "A refreshed idea for a commercial space.",
+    narrative: [
+      "A refreshed idea for a commercial space."
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06444.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06443.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_06414.jpg"]
+      }
+    ]
+  },
+  {
+    id: "gulabistro",
+    title: "Gulabistro",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01725.jpg",
+    concept: "The Pink Courtyard Bistro in the City !!",
+    narrative: [
+      "The Pink Courtyard Bistro in the City !!"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01786.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01742.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01618.jpg"]
+      }
+    ]
+  },
+  {
+    id: "samrat-corporation",
+    title: "Samrat Corporation",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05238-Edit.jpg",
+    concept: "\" An another brick in the wall \"",
+    narrative: [
+      "\" An another brick in the wall \""
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05218.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05229.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_05234.jpg"]
+      }
+    ]
+  },
+  {
+    id: "trikona",
+    title: "Trikona",
+    category: "Interiors",
+    location: "Raipur",
+    year: "2023",
+    client: "Confidential",
+    area: "Variable",
+    scope: "Interiors",
+    heroImage: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01836.jpg",
+    concept: "A chill place to hangout with friends and family",
+    narrative: [
+      "A chill place to hangout with friends and family"
+    ],
+    materials: [
+      { name: "Natural Stone", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80" },
+      { name: "Premium Wood", image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&q=80" }
+    ],
+    quote: "Design is not just what it looks like, it's how it works.",
+    galleries: [
+      {
+        name: "Gallery",
+        images: ["https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01760-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01765-HDR.jpg","https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01787.jpg"]
+      }
+    ]
+  },
 ];

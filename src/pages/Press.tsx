@@ -16,7 +16,7 @@ const pressItems = [
   { id: 1, publication: "Architectural Digest", title: "A Study in Restraint: The Aggarwal Residence", date: "Oct 2024", project: "Aggarwal Residence", category: "Residential", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80", featured: true },
   { id: 2, publication: "Elle Decor", title: "Hospitality Design Redefined at Clarks Inn", date: "Aug 2024", project: "Clarks Inn Suites", category: "Hospitality", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80", featured: false },
   { id: 3, publication: "GoodHomes", title: "The Art of Bespoke Furniture", date: "Jun 2024", project: "Studio Collection", category: "Features", image: "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?auto=format&fit=crop&q=80", featured: false },
-  { id: 4, publication: "Surfaces Reporter", title: "Conversation with Rashi & Ruchi", date: "Apr 2024", project: "Azure Interiors", category: "Interviews", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80", featured: false },
+  { id: 4, publication: "Surfaces Reporter", title: "Conversation with Swapnil Jaggi", date: "Apr 2024", project: "Swapnil Jaggi Architects", category: "Interviews", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80", featured: false },
   { id: 5, publication: "Commercial Design India", title: "Zeqon Experience Centre", date: "Feb 2024", project: "Zeqon", category: "Commercial", image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80", featured: false },
 ];
 

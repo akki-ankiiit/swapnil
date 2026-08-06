@@ -125,7 +125,7 @@ export default function Home() {
               <div className="absolute -bottom-10 -right-6 lg:-right-20 backdrop-blur-xl bg-porcelain/80 border border-white/40 p-8 shadow-2xl max-w-[280px]">
                 <p className="font-script text-3xl mb-3 text-ink">Since 2013</p>
                 <p className="font-sans text-xs leading-relaxed text-ink/80">
-                  Founded by interior designers Rashi Bothra and Ruchi Gehani, Azure Interiors creates spaces that feel unmistakably personal.
+                  Swapnil Jaggi Architects creates spaces that feel unmistakably personal, merging bespoke design, structural integrity, and personal expression.
                 </p>
               </div>
             </div>
@@ -325,11 +325,10 @@ export default function Home() {
         {/* Section 5: Animated Stats Section */}
         <section className="py-12 md:py-20 bg-porcelain relative z-10">
           <div className="max-w-[1440px] w-full mx-auto px-5 md:px-8 xl:px-18">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-y border-ink/10 py-10 md:py-16">
-              <AnimatedNumber value={150} label="Projects Completed" />
-              <AnimatedNumber value={15} label="Years Experience" />
-              <AnimatedNumber value={25} label="Design Awards" />
-              <AnimatedNumber value={120} label="Happy Clients" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-y border-ink/10 py-10 md:py-16">
+              <AnimatedNumber value={7} label="Years Experience" />
+              <AnimatedNumber value={262} label="Happy Clients" />
+              <AnimatedNumber value={48} label="Upcoming Projects" />
             </div>
           </div>
         </section>

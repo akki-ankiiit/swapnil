@@ -11,7 +11,7 @@ import { cn } from "@/utils/cn";
 import { Link } from "react-router-dom";
 import { projects } from "@/data/projects";
 
-const categories = ["All", "Residential", "Hospitality", "Commercial", "Retail", "Farm Houses", "Furniture"];
+const categories = ["All", "Interiors", "Architecture", "Architecture & Interiors"];
 
 function EditorialCard({ project }: { project: typeof projects[0] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
