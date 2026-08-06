@@ -10,11 +10,11 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 import { motion, AnimatePresence, useInView, animate } from "framer-motion";
 
 const selectedProjects = [
-  { title: "The Artisan's Loft", category: "A study in raw materials and refined elegance.", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80", link: "/portfolio/artisan-loft" },
-  { title: "Horizon Estate", category: "Blending the boundaries between architecture and nature.", image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80", link: "/portfolio/horizon-estate" },
-  { title: "Lumina Retail", category: "An immersive commercial environment.", image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80", link: "/portfolio/lumina-retail" },
-  { title: "The Monochrome House", category: "Minimalism achieved through dramatic contrast.", image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80", link: "/portfolio/monochrome-house" },
-  { title: "Oasis Pavilion", category: "A sanctuary of peace in the bustling city.", image: "https://images.unsplash.com/photo-1502005097973-6a7082348e28?auto=format&fit=crop&q=80", link: "/portfolio/oasis-pavilion" },
+  { title: "Om Traders", category: "Commercial", image: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09655.jpg", link: "/portfolio/om-traders" },
+  { title: "The Flower Story", category: "Retail", image: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DSC08865.JPG", link: "/portfolio/flower-story" },
+  { title: "The Monochrome House", category: "Architecture", image: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/69a76885-abc4-426f-9955-5a2cb259bd41.jpg", link: "/portfolio/monochrome-house" },
+  { title: "POSH TOWN", category: "Architecture", image: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/DJI_0009.jpg", link: "/portfolio/posh-town" },
+  { title: "Ford", category: "Architecture & Interiors", image: "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_01440.jpg", link: "/portfolio/ford" },
 ];
 
 function AnimatedNumber({ value, label }: { value: number; label: string }) {
@@ -54,9 +54,9 @@ export default function Home() {
   const [activePhilosophyBg, setActivePhilosophyBg] = useState(0);
 
   const philosophyImages = [
-    "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+    "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_09723.jpg",
+    "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_07604-HDR.jpg",
+    "https://www.swapniljaggiarchitects.com/admin/uploads/project_section/WG_08463.jpg"
   ];
 
   const nextProject = () => setCurrentProject((prev) => (prev + 1) % selectedProjects.length);
@@ -70,9 +70,8 @@ export default function Home() {
         {/* Section 1: Fresh Editorial Hero */}
         <section className="relative min-h-screen w-full flex flex-col justify-end pt-24 lg:pt-40 pb-10 md:pb-16 lg:pb-16 md:pb-24 overflow-hidden bg-ink">
           <div className="absolute inset-0 z-0">
-            {/* I've used a placeholder that closely resembles the uploaded modern house. You can change this src to "/images/hero.jpg" once you drop the file into the public/images folder */}
             <ParallaxImage
-              src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1706164971302-e30c0640cc3b?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Luxury Interior Architecture"
               speed={0.6}
               priority
@@ -115,7 +114,7 @@ export default function Home() {
             <div className="lg:col-span-4 lg:col-start-2 relative max-w-md mx-auto lg:max-w-none w-full">
               <div className="aspect-[4/5] w-full overflow-hidden shadow-2xl rounded-sm">
                 <ParallaxImage
-                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://www.swapniljaggiarchitects.com/admin/uploads/project_section/khushboo%20enterprises.jpg"
                   alt="Living Space"
                   speed={0.2}
                 />
