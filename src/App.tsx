@@ -1,6 +1,7 @@
 import { Suspense, lazy, useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import GoldenSpiralLoader from "@/components/GoldenSpiralLoader";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -12,16 +13,25 @@ function ScrollToTop() {
   return null;
 }
 
-const Home = lazy(() => import("@/pages/Home"));
-const About = lazy(() => import("@/pages/About"));
-const Portfolio = lazy(() => import("@/pages/Portfolio"));
-const ProjectDetail = lazy(() => import("@/pages/ProjectDetail"));
-const Team = lazy(() => import("@/pages/Team"));
-const Press = lazy(() => import("@/pages/Press"));
-const Contact = lazy(() => import("@/pages/Contact"));
-const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy"));
-const TermsOfService = lazy(() => import("@/pages/TermsOfService"));
-const NotFound = lazy(() => import("@/pages/NotFound"));
+const lazyWithDelay = (importFunc: () => Promise<any>, delay = 2000) => {
+  return lazy(() => {
+    return Promise.all([
+      importFunc(),
+      new Promise(resolve => setTimeout(resolve, delay))
+    ]).then(([moduleExports]) => moduleExports);
+  });
+};
+
+const Home = lazyWithDelay(() => import("@/pages/Home"));
+const About = lazyWithDelay(() => import("@/pages/About"));
+const Portfolio = lazyWithDelay(() => import("@/pages/Portfolio"));
+const ProjectDetail = lazyWithDelay(() => import("@/pages/ProjectDetail"));
+const Team = lazyWithDelay(() => import("@/pages/Team"));
+const Press = lazyWithDelay(() => import("@/pages/Press"));
+const Contact = lazyWithDelay(() => import("@/pages/Contact"));
+const PrivacyPolicy = lazyWithDelay(() => import("@/pages/PrivacyPolicy"));
+const TermsOfService = lazyWithDelay(() => import("@/pages/TermsOfService"));
+const NotFound = lazyWithDelay(() => import("@/pages/NotFound"));
 
 import CustomCursor from "@/components/CustomCursor";
 import LenisProvider from "@/components/LenisProvider";
@@ -32,7 +42,7 @@ function AnimatedRoutes() {
 
   return (
     <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-      <Suspense fallback={<div className="h-screen w-screen flex items-center justify-center bg-ink text-porcelain">Loading...</div>}>
+      <Suspense fallback={<GoldenSpiralLoader />}>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
