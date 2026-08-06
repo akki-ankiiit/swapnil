@@ -1,9 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useAnimationFrame } from 'framer-motion';
 
-export default function PetButterfly() {
-  const x = useMotionValue(typeof window !== 'undefined' ? window.innerWidth / 2 : 0);
-  const y = useMotionValue(typeof window !== 'undefined' ? window.innerHeight / 2 : 0);
+function SingleButterfly({ 
+  colorClass = "", 
+  delayOffset = 0, 
+  restXOffset = 60, 
+  restYOffset = 60,
+  randomness = 1
+}: { 
+  colorClass?: string; 
+  delayOffset?: number;
+  restXOffset?: number;
+  restYOffset?: number;
+  randomness?: number;
+}) {
+  const x = useMotionValue(typeof window !== 'undefined' ? (window.innerWidth / 2) + delayOffset : 0);
+  const y = useMotionValue(typeof window !== 'undefined' ? (window.innerHeight / 2) + delayOffset : 0);
   const rotate = useMotionValue(0);
 
   const [isResting, setIsResting] = useState(false);
@@ -19,7 +31,6 @@ export default function PetButterfly() {
   });
   
   const inactivityTimer = useRef<NodeJS.Timeout | null>(null);
-  const lastSparkTime = useRef(0);
   
   useEffect(() => {
     const resetTimer = () => {
@@ -27,7 +38,7 @@ export default function PetButterfly() {
       if (inactivityTimer.current) clearTimeout(inactivityTimer.current);
       inactivityTimer.current = setTimeout(() => {
         setIsResting(true);
-      }, 5000); // 5 seconds of inactivity to rest
+      }, 5000 + delayOffset); // slightly different rest timing
     };
     
     window.addEventListener('mousemove', resetTimer);
@@ -43,26 +54,26 @@ export default function PetButterfly() {
       window.removeEventListener('scroll', resetTimer);
       if (inactivityTimer.current) clearTimeout(inactivityTimer.current);
     };
-  }, []);
+  }, [delayOffset]);
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (isRestingRef.current) {
         // Sit at the bottom right corner when resting
         target.current = { 
-          x: window.innerWidth - 60, 
-          y: window.innerHeight - 60 
+          x: window.innerWidth - restXOffset, 
+          y: window.innerHeight - restYOffset 
         };
       } else {
         // Fly around randomly
         target.current = {
-          x: Math.random() * (window.innerWidth - 200) + 100,
-          y: Math.random() * (window.innerHeight - 200) + 100
+          x: Math.random() * (window.innerWidth - 200) + 100 * randomness,
+          y: Math.random() * (window.innerHeight - 200) + 100 * randomness
         };
       }
-    }, 2500);
+    }, 2500 + delayOffset);
     return () => clearInterval(interval);
-  }, []);
+  }, [delayOffset, restXOffset, restYOffset, randomness]);
 
   useAnimationFrame((time) => {
     const currentX = x.get();
@@ -94,7 +105,6 @@ export default function PetButterfly() {
       
       rotate.set(currentRotate + diff * 0.1);
       
-      // (Sparks removed for performance optimization)
     } else if (isRestingRef.current) {
       // Gently return to upright position when resting
       const currentRotate = rotate.get();
@@ -106,22 +116,27 @@ export default function PetButterfly() {
   });
 
   return (
-    <>
+    <motion.div
+      className={`fixed top-0 left-0 text-4xl pointer-events-none z-[9999] drop-shadow-[0_0_15px_rgba(255,255,255,0.6)] select-none ${colorClass}`}
+      style={{ x, y, rotate }}
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1.5, type: 'spring' }}
+    >
+      <div className={`transition-transform duration-300 ${isResting ? 'scale-90' : 'scale-100'}`}>
+        <span className={`inline-block ${isResting ? 'animate-flap-slow' : 'animate-flap'}`}>
+          🦋
+        </span>
+      </div>
+    </motion.div>
+  );
+}
 
-      {/* The Butterfly */}
-      <motion.div
-        className="fixed top-0 left-0 text-4xl pointer-events-none z-[9999] drop-shadow-[0_0_15px_rgba(255,255,255,0.6)] select-none"
-        style={{ x, y, rotate }}
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5, type: 'spring' }}
-      >
-        <div className={`transition-transform duration-300 ${isResting ? 'scale-90' : 'scale-100'}`}>
-          <span className={`inline-block ${isResting ? 'animate-flap-slow' : 'animate-flap'}`}>
-            🦋
-          </span>
-        </div>
-      </motion.div>
+export default function PetButterfly() {
+  return (
+    <>
+      {/* Original Blue Butterfly */}
+      <SingleButterfly />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { Suspense, lazy, useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import GoldenSpiralLoader from "@/components/GoldenSpiralLoader";
+import ProgressLoader from "@/components/ProgressLoader";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -42,7 +42,7 @@ function AnimatedRoutes() {
 
   return (
     <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-      <Suspense fallback={<GoldenSpiralLoader />}>
+      <Suspense fallback={<ProgressLoader />}>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
