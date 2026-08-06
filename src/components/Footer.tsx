@@ -90,7 +90,7 @@ export default function Footer() {
     <>
       {/* Global Pre-Footer CTA */}
       {!isContactPage && (
-        <section className="relative w-full py-20 md:py-32 flex items-center justify-center overflow-hidden bg-ink">
+        <section className="relative w-full py-12 md:py-32 flex items-center justify-center overflow-hidden bg-ink">
           <div className="absolute inset-0">
             <ParallaxImage
               src={content.image}
@@ -101,10 +101,10 @@ export default function Footer() {
           </div>
 
           <div className="relative z-10 text-center px-5 flex flex-col items-center">
-            <p className="font-script text-3xl md:text-4xl text-porcelain/90 mb-6 capitalize">
+            <p className="font-script text-3xl md:text-4xl text-porcelain/90 mb-4 md:mb-6 capitalize">
               {content.subtitle}
             </p>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif text-porcelain mb-8 md:mb-12 max-w-4xl leading-[1.2]">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif text-porcelain mb-6 md:mb-12 max-w-4xl leading-[1.2]">
               {content.title}
             </h2>
             <MagneticButton 
@@ -121,16 +121,16 @@ export default function Footer() {
       )}
 
       {/* Main Footer */}
-      <footer className="relative bg-stone pt-24 pb-12 overflow-hidden text-ink">
+      <footer className="relative bg-stone pt-12 md:pt-24 pb-8 md:pb-12 overflow-hidden text-ink">
         <div className="max-w-[1440px] mx-auto px-5 md:px-8 xl:px-18 relative z-10">
 
           {/* Top Section */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-20 border-b border-ink/10">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 pb-10 md:pb-20 border-b border-ink/10">
 
             {/* Brand Info */}
             <div className="md:col-span-4 flex flex-col items-start">
-              <Link to="/" className="mb-6 inline-block hover:opacity-80 transition-opacity">
-                <img src="/dark.svg" alt="Swapnil Jaggi Architects Logo" className="h-20 w-auto" />
+              <Link to="/" className="mb-2 md:mb-6 inline-block hover:opacity-80 transition-opacity">
+                <img src="/dark.svg" alt="Swapnil Jaggi Architects Logo" className="h-16 md:h-20 w-auto" />
               </Link>
               <p className="text-sm font-sans leading-relaxed max-w-sm">
                 Swapnil Jaggi Architects is a Raipur-based interior architecture and design studio creating bespoke residential, hospitality, retail and commercial spaces.
